@@ -1,0 +1,586 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>unum - Interconvert numbers, Unicode, and HTML/XHTML characters</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta name="keywords" content="unum, Unicode, HTML, XHTML, character, entity, hexadecimal, octal, decimal" />
+<meta name="description" content="unum: Interconvert numbers, Unicode, and HTML/XHTML characters" />
+<meta name="author" content="John Walker" />
+<meta name="robots" content="index" />
+<style type="text/css">
+    a:link,  a:visited {
+        background-color: inherit;
+        color: rgb(0%, 0%, 80%);
+        text-decoration: none;
+    }
+
+    a:hover  {
+        background-color:  rgb(30%, 30%, 100%);
+        color: rgb(100%, 100%, 100%);
+    }
+    
+    a:active {
+        color: rgb(100%, 0%, 0%);
+        background-color:  rgb(30%, 30%, 100%);
+    }
+    
+    /* Links without decoration.  These are usually
+       wrapped around buttons and images which are
+       self-evidently links. */
+    
+    a.i:link, a.i:visited, a.i:hover {
+		background-color:  inherit;
+		color: inherit;
+		ext-decoration: none;
+    }    
+    
+    blockquote.warning {
+        margin-left: 4em;
+        margin-right: 4em;
+        padding: 6px;
+        background-color: #FFC0C0;
+        color: #000000;
+    }
+
+    body {
+        margin-left: 15%;
+        margin-right: 10%;
+        background-color: #FFFFFF;
+        color: #000000;
+    }
+
+    div.manpage {
+        background-color: #FFFFC0;
+        color: #000000;
+        padding-left: 1em;
+        padding-right: 1em;
+        padding-top: 0.1em;
+        padding-bottom: 0.1em;
+    }
+
+    dl {
+        margin-left: 4em;
+        margin-right: 4em;
+    }
+
+    dl.qa {
+        margin-left: 1em;
+    }
+
+    dl.qa dd {
+        white-space: pre;
+        font-family: Courier, monospace;
+        font-size: smaller;
+    }
+
+    dl.qa dd em {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-style: italic;
+    }
+
+    dt {
+        margin-top: 1ex;
+        font-weight: bold;
+    }
+
+    h1 {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        color: #0381F7;
+        background-color: #FFFFFF;
+        text-align: center;
+    }
+
+    div.manpage h2 {
+        font-variant: small-caps;
+    }
+
+    img.b0 {
+        border: 0px;
+    }
+    
+    p {
+		text-align: justify;
+	}
+
+    p.cn {
+        text-align: center;
+        margin-top: 0pt;
+    }
+
+    table.r {
+        float: right;
+    }
+
+</style>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+
+    /*  http://www.sitepoint.com/article/standards-compliant-world
+        Modified by John Walker to extract only modify links with
+        rel="Target:<frame>" and extract the frame name from that
+        specification. */
+    function externalLinks() {
+        if (!document.getElementsByTagName) {
+            return;
+        }
+        var anchors = document.getElementsByTagName("a");
+        for (var i = 0; i < anchors.length; i++) {
+            var anchor = anchors[i], target;
+            if (anchor.getAttribute("href") &&
+                anchor.getAttribute("rel") &&
+                anchor.getAttribute("rel").match(/^Target:/)) {
+                target = anchor.getAttribute("rel").match(/(^Target:)(\w+$)/);
+                anchor.target = target[2];
+            }
+        }
+    }
+
+/* ]]> */
+</script>
+</head>
+
+<body onload="externalLinks();">
+
+<h1><img src="figures/unum.png" width="640" height="176" alt="UNUM" /><br />
+<small><em>
+Interconvert numbers, Unicode, and HTML/XHTML entities</em>
+</small></h1>
+
+<p>
+Once upon a time, all the characters you needed when writing
+documents and programs were <em>right there on the keyboard</em>
+(at least if you're too young to have
+<a href="/documents/univac/cards.html" rel="Target:Unum_Aux">used a keypunch</a>
+and think <b><tt>11&minus;6&minus;8</tt></b> every time you see a semicolon), but
+that was then and this is the globalised, technology saturated
+twenty-first century, with flying cars, fusion power generators,
+holidays on the Moon, and instantaneous worldwide
+communication&hellip;oh, wait&hellip;well, the last one anyway.
+When writing for a wired world, one often finds the need to use
+characters from languages other than one's own, mathematical
+and scientific symbols, fancy punctuation, printer's ornaments, and other
+embellishments which give online documents that professional polish.
+</p>
+
+<p>
+Usually, this has meant hauling out that monster (1500 page, 3.4 kg)
+<a href="http://www.amazon.com/dp/0321480910/?tag=fourmilabwwwfour"
+rel="Target:Amazon_Fourmilab">Unicode book</a>, searching for the
+character that's required, then converting its hexadecimal character code
+to a decimal or symbolic HTML
+&ldquo;<a href="https://www.w3.org/TR/html5/syntax.html#named-character-references"
+rel="Target:Unum_Aux">character entity</a>&rdquo;, which means
+firing up the programmer's calculator and/or another table lookup.
+Enter <strong>unum</strong>, a stand-alone utility program written in
+portable
+<a href="http://www.perl.org/" rel="Target:Unum_Aux">Perl</a>
+which allows you to look up Unicode and HTML characters by
+name or number, and interconvert numbers in decimal, hexadecimal, and
+octal bases.
+</p>
+
+<p>
+Here are some everyday questions you can easily answer with
+<b>unum</b>.
+</p>
+
+<blockquote class="warning">
+<p style="margin-top: 0.5ex; margin-bottom: 0.5ex;">
+Browser and system font support for Unicode is spotty at the
+present time.  Some of the characters in the following
+examples may display as square boxes, blanks, question marks, or
+whatever other symbol your system uses for characters it cannot
+properly display.
+</p>
+</blockquote>
+
+<dl class="qa">
+<dt>What is 65261 in hexadecimal?</dt>
+    <dd>$ unum 65261
+   Octal  Decimal      Hex        HTML    Character   Unicode
+ 0177355    65261   0xFEED    &amp;#65261;    "&#65261;"         ARABIC LETTER WAW ISOLATED FORM</dd>
+
+<dt>A Perl string contains "<tt>\x{2622}</tt>".  What character is that?</dt>
+    <dd>$ unum 0x2622
+   Octal  Decimal      Hex        HTML    Character   Unicode
+  023042     9762   0x2622     &amp;#9762;    "&#9762;"         RADIOACTIVE SIGN</dd>
+
+<dt>What's the character code for Control-Q?</dt>
+    <dd>$ unum n=ctrl-q
+   Octal  Decimal      Hex        HTML    Character   Unicode
+     021       17     0x11       &amp;#17;    "\x{11}"    &lt;control&gt; DEVICE CONTROL ONE, DC1, Ctrl-Q</dd>
+
+<dt>What are the HTML entity codes for mathematical integral signs?</dt>
+    <dd>$ unum n=integral
+   Octal  Decimal      Hex        HTML    Character   Unicode
+  021053     8747   0x222B &amp;int;,&amp;Integral;    "&#8747;"    INTEGRAL
+  021054     8748   0x222C       &amp;Int;    "&#8748;"         DOUBLE INTEGRAL
+  021055     8749   0x222D &amp;iiint;,&amp;tint;    "&#8749;"      TRIPLE INTEGRAL
+  021056     8750   0x222E &amp;conint;,&amp;ContourIntegral;,&amp;oint;  "&#8750;"   CONTOUR INTEGRAL
+                  <em>Additional output elided.</em></dd>
+
+<dt>What HTML entities are defined for quotation marks?</dt>
+    <dd>$ unum h=quo
+   Octal  Decimal      Hex        HTML    Character   Unicode
+     042       34     0x22 &amp;QUOT;,&amp;quot;    """       QUOTATION MARK
+    0253      171     0xAB     &amp;laquo;    "&laquo;"         LEFT-POINTING DOUBLE ANGLE QUOTATION MARK
+    0273      187     0xBB     &amp;raquo;    "&raquo;"         RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK
+  020030     8216   0x2018 &amp;lsquo;,&amp;OpenCurlyQuote;    "&lsquo;"   LEFT SINGLE QUOTATION MARK
+  020031     8217   0x2019 &amp;CloseCurlyQuote;,&amp;rsquo;,&amp;rsquor;    "&rsquo;"   RIGHT SINGLE QUOTATION MARK
+                  <em>Additional output elided.</em></dd>
+
+<dt>What Unicode characters are combined to form the HTML
+character &amp;nGtv; (not much greater than)?</dt>
+    <dd>$ unum h=nGtv
+                                &amp;nGtv; =
+   Octal  Decimal      Hex        HTML    Character   Unicode
+  021153     8811   0x226B &amp;gg;,&amp;Gt;,&amp;NestedGreaterGreater; "&#8811;" MUCH GREATER-THAN
+   01470      824    0x338      &amp;#824;    "&#824;"         COMBINING LONG SOLIDUS OVERLAY</dd>
+
+<dt>Which Unicode blocks contain Greek characters?</dt>
+    <dd>$ unum b=greek
+   Start        End  Unicode Block
+  U+0370 -   U+03FF  Greek and Coptic
+  U+1F00 -   U+1FFF  Greek Extended
+ U+10140 -  U+1018F  Ancient Greek Numbers
+ U+1D200 -  U+1D24F  Ancient Greek Musical Notation</dd>
+
+<dt>What are all the character blocks in Unicode?</dt>
+    <dd>$ unum b=.
+   Start        End  Unicode Block
+  U+0000 -   U+007F  Basic Latin
+  U+0080 -   U+00FF  Latin-1 Supplement
+  U+0100 -   U+017F  Latin Extended-A
+  U+0180 -   U+024F  Latin Extended-B
+  U+0250 -   U+02AF  IPA Extensions
+          <em>Output elided.</em>
+ U+2F800 -  U+2FA1F  CJK Compatibility Ideographs Supplement
+ U+E0000 -  U+E007F  Tags
+ U+E0100 -  U+E01EF  Variation Selectors Supplement
+ U+F0000 -  U+FFFFF  Supplementary Private Use Area-A
+U+100000 - U+10FFFF  Supplementary Private Use Area-B</dd>
+
+<dt>What characters are available for the Thai language?</dt>
+    <dd>$ unum l=thai
+   Start        End  Unicode Block
+  U+0E00 -   U+0E7F  Thai
+   Octal  Decimal      Hex        HTML    Character   Unicode
+   07000     3584    0xE00     &amp;#3584;    "&#3584;"         Thai U+00E00
+   07001     3585    0xE01     &amp;#3585;    "&#3585;"         THAI CHARACTER KO KAI
+   07002     3586    0xE02     &amp;#3586;    "&#3586;"         THAI CHARACTER KHO KHAI
+   07003     3587    0xE03     &amp;#3587;    "&#3587;"         THAI CHARACTER KHO KHUAT
+   07004     3588    0xE04     &amp;#3588;    "&#3588;"         THAI CHARACTER KHO KHWAI
+                  <em>Additional output elided.</em></dd>
+
+<dt>Here's the Russian word &ldquo;&#1055;&#1088;&#1072;&#1074;&#1076;&#1072;&rdquo;
+    in a Web page.  What's the HTML code to use it in my own page?</dt>
+    <dd>$ unum c=&#1055;&#1088;&#1072;&#1074;&#1076;&#1072;
+   Octal  Decimal      Hex        HTML    Character   Unicode
+   02037     1055    0x41F       &amp;Pcy;    "&#1055;"         CYRILLIC CAPITAL LETTER PE
+   02100     1088    0x440       &amp;rcy;    "&#1088;"         CYRILLIC SMALL LETTER ER
+   02060     1072    0x430       &amp;acy;    "&#1072;"         CYRILLIC SMALL LETTER A
+   02062     1074    0x432       &amp;vcy;    "&#1074;"         CYRILLIC SMALL LETTER VE
+   02064     1076    0x434       &amp;dcy;    "&#1076;"         CYRILLIC SMALL LETTER DE
+   02060     1072    0x430       &amp;acy;    "&#1072;"         CYRILLIC SMALL LETTER A</dd>
+
+
+<dt>A Web page contains a sequence of character entities for
+    an Arabic name.  What is it?</dt>
+    <dd>$ unum '&amp;#1575;&amp;#1604;&amp;#1593;&amp;#1585;&amp;#1576;&amp;#1610;&amp;#1577;'
+   Octal  Decimal      Hex        HTML    Character   Unicode
+   03047     1575    0x627     &amp;#1575;    "&#1575;"         ARABIC LETTER ALEF
+   03104     1604    0x644     &amp;#1604;    "&#1604;"         ARABIC LETTER LAM
+   03071     1593    0x639     &amp;#1593;    "&#1593;"         ARABIC LETTER AIN
+   03061     1585    0x631     &amp;#1585;    "&#1585;"         ARABIC LETTER REH
+   03050     1576    0x628     &amp;#1576;    "&#1576;"         ARABIC LETTER BEH
+   03112     1610    0x64A     &amp;#1610;    "&#1610;"         ARABIC LETTER YEH
+   03051     1577    0x629     &amp;#1577;    "&#1577;"         ARABIC LETTER TEH MARBUTA
+                  <em>&ldquo;al-'Arabiyah&rdquo;&mdash;Arabia</em></dd>
+
+<dt>What is the meaning of the Chinese symbol <span style="font-weight: normal;">&#28846;</span>?</dt>
+	<dd>$ unum &#28846;
+   Octal  Decimal      Hex        HTML    Character   Unicode
+  070256    28846   0x70AE    &amp;#28846;    "&#28846;"         CJK UNIFIED IDEOGRAPH-#70AE,
+                                                      IRGKangXi=0668.250, RSKangXi=86.5,
+                                                      Def{large gun, cannon; artillery}</dd>
+</dl>
+
+<h2>Downloading and Installation</h2>
+
+<p>
+The <strong>unum</strong> utility is available in two varieties
+which may be downloaded from the following links:
+</p>
+
+<blockquote>
+<div>
+    <b><tt><a href="download/unum_comp.tar.gz">unum_comp.tar.gz</a></tt></b>:
+        Gzipped TAR archive (737 Kb) [Compressed version]<br />
+    <b><tt><a href="download/unum.tar.gz">unum.tar.gz</a></tt></b>:
+        Gzipped TAR archive (1.4 Mb) [Uncompressed version]
+</div>
+</blockquote>
+
+<p>
+The compressed and uncompressed versions of the program work
+identically.  The uncompressed version contains the entire
+Unicode character database in text form, and is almost 8 megabytes
+when extracted from the archive.  The compressed version uses the
+same database, but stored compressed with the
+<a href="https://en.wikipedia.org/wiki/Bzip2" rel="Target:Unum_Aux">bzip2</a>
+utility; the database is automatically uncompressed when the program
+is run.  The compressed version is a little less than a megabyte
+in size and loads much faster&mdash;even including the time to
+decompress the database, it usually runs faster than the
+uncompressed version.  The uncompressed version is provided for users
+of systems which do not support the required <b>bunzip2</b> utility
+or a version of Perl which permits binary data embedded in programs.
+</p>
+
+<p>
+Each archive contains a single file, <tt>unum.pl</tt>, which is
+the self-contained Perl source code for <strong>unum</strong>. 
+You may wish to rename it <tt>unum</tt> and install it in a
+directory on your <tt>PATH</tt>, but it may be run from any
+location.  The program uses no modules from the Perl library:
+there are no prerequisites other than Perl itself and
+<b>bunzip2</b> for the compressed version.  For full
+functionality, including the ability to display Unicode
+characters and accept them on the command line,
+<strong>unum</strong> requires a release of Perl contemporary
+with its early 2006 release date.  The program has been tested
+on Perl 5.8.5; if you run it on an earlier version, you may get
+an error  indicating that the &ldquo;<tt>&minus;CA</tt>&rdquo;
+option in the first line of  the program is not implemented.  If
+this specification is removed, the  program will still work, but
+you won't be able to specify Unicode  characters on the command
+line.  Unicode command line arguments and  terminal output
+require an operating system and shell which support  these
+features and may not work on your system. You may have to
+change  the character encoding in your terminal program to
+permit Unicode input  and output.  The character name and number
+lookup facilities will work  on any system with a vaguely recent
+version of Perl.
+</p>
+
+<p>
+All <a href="prior-releases">prior releases</a> remain available.
+</p>
+
+<h2>Manual Page</h2>
+
+<p>
+You can print the following documentation directly from the
+<tt>unum.pl</tt> program with the command
+"<tt>perldoc&nbsp;unum.pl</tt>".  Calling the program with no
+arguments will print a short summary of argument formats.
+</p>
+
+<div class="manpage">
+
+<h2>Name</h2>
+
+<p><strong>unum</strong> &mdash; Interconvert numbers, Unicode, and HTML/XHTML characters</p>
+
+<hr />
+<h2>Synopsis</h2>
+
+<p><strong>unum</strong> <em>argument</em>&hellip;</p>
+
+<hr />
+<h2>Description</h2>
+
+<p>The <strong>unum</strong> program is a command line utility which allows
+you to convert decimal, octal, hexadecimal, and binary numbers;
+Unicode character and block names; and HTML/XHTML character
+entity names into one another.  It can be used as an on-line
+special character reference for Web authors.</p>
+
+<h3>Arguments</h3>
+<p>The command line may contain any number of the following
+forms of <em>argument</em>.</p>
+
+<dl>
+<dt>123</dt>
+<dd>Decimal number.</dd>
+
+<dt>0371</dt>
+<dd>Octal number preceded by a zero.</dd>
+
+<dt>0x1D351<br />
+</dt>
+<dd>Hexadecimal number preceded by <code>0x</code>.  Letters may be upper or
+lower case, but the <code>x</code> must be lower case.</dd>
+
+<dt>0b110101<br />
+</dt>
+<dd>Binary number.</dd>
+
+<dt>b=<em>block</em><br />
+</dt>
+<dd>
+Unicode character blocks matching <em>block</em> are listed.
+The <em>block</em> specification may be a regular expression.
+For example, <code>b=greek</code> lists all Greek character blocks
+in Unicode.
+</dd>
+
+<dt>c=<em>char</em>&hellip;<br />
+</dt>
+<dd>
+The Unicode character codes for the characters <em>char</em>&hellip; are printed.
+If the first character is not a decimal digit and the second not an
+equal sign, the <code>c=</code> may be omitted.
+</dd>
+
+<dt>h=<em>entity</em><br />
+</dt>
+<dd>
+List all HTML/XHTML character references matching <em>entity</em>,
+which may be a regular expression. Matching is case-insensitive,
+so <code>h=alpha</code> finds both <code>&amp;Alpha;</code> and
+<code>&amp;alpha;</code>. If the reference is composed of
+multiple Unicode code points, the components are printed after
+the name of the composed character reference.
+</dd>
+
+
+<dt>'&amp;#<em>number</em>;&amp;#<tt>x</tt><em>hexnum</em>;&hellip;'<br />
+</dt>
+<dd>
+List the characters corresponding to the specified HTML/XHTML
+character entities, which may be given in either decimal or
+hexadecimal.  Note that the &ldquo;<tt>x</tt>&rdquo; in XHTML entities must be lower case.
+On most Unix-like operating systems, you'll need to quote the argument
+so the ampersand, octothorpe, and semicolon aren't interpreted by the
+shell.
+</dd>
+
+
+<dt>l=<em>block</em><br />
+</dt>
+<dd>
+List all Unicode blocks matching <em>block</em> and all characters
+within each block; <code>l=goth</code> lists the <code>Gothic</code> block
+and the 32 characters it contains.
+</dd>
+
+<dt>n=<em>name</em><br />
+</dt>
+<dd>
+List all Unicode character whose names match <em>name</em>, which may be
+a regular expression.  For example, <code>n=telephone</code> finds the twelve
+Unicode characters for telephone symbols.
+</dd>
+
+</dl>
+
+<h3>Output</h3>
+
+<p>For number or character arguments, the value(s) are listed in
+all of the input formats, save binary.</p>
+
+<pre>
+   Octal  Decimal      Hex        HTML    Character   Unicode
+     056       46     0x2E    &amp;period;    &quot;.&quot;         FULL STOP
+</pre>
+
+<p>
+If the terminal font cannot display the character being listed,
+the &quot;Character&quot; field will contain whatever default is
+shown in such circumstances.  Control characters are shown as a
+Perl hexadecimal escape. If multiple HTML named character
+references map to the same Unicode code point, all are shown
+separated by commas.
+</p>
+
+<p>
+Unicode blocks are listed as follows:
+</p>
+
+<pre>
+    Start        End  Unicode Block
+   U+2460 -   U+24FF  Enclosed Alphanumerics
+  U+1D400 -  U+1D7FF  Mathematical Alphanumeric Symbols
+ </pre>
+
+<hr />
+<h2>Version</h2>
+
+<p>This is <strong>unum</strong> version 2.2, released on September 19th, 2017.</p>
+
+<hr />
+<h2>Bugs</h2>
+
+<p>Specification of Unicode characters on the command line requires
+an operating system and shell which support that feature and a
+version of Perl with the <strong>&minus;CA</strong> command line option
+(v5.8.5 has it, but v5.8.0 does not; I don't know in which
+intermediate release it was introduced).  If your version of
+Perl does not implement this switch, you'll have to remove it
+from the <code>#!</code> statement at the top of the program, and Unicode
+characters on the command line will not be interpreted correctly.</p>
+
+<p>If you specify a regular expression, be sure to quote the argument
+if it contains any characters the shell would otherwise interpret.</p>
+
+<p>If you run <b>perldoc</b> on the compressed version of the
+program, a large amount of gibberish will be displayed after the
+end of the embedded documentation. <b>perldoc</b> gets confused
+by sequences in the compressed data table and tries to interpret
+it as documentation. This doesn't happen with the
+uncompressed version.</p>
+
+<p>Please report any bugs to <tt>bugs@fourmilab.ch</tt>.</p>
+
+<hr />
+<h2>Copyright</h2>
+
+<p>This is free software; you can redistribute it and/or modify it under
+the same terms as Perl itself.</p>
+
+<p>The Unicode character tables are based upon the Unicode 10.0.0 
+(2017) standard.</p>
+
+<p>The control characters in this <b>unum</b> version have been 
+annotated with their Unicode abbreviations, names, and for U+0000 to 
+U+001F, the Ctrl-key code which generates them.</p>
+
+<p>The HTML named character references are from the World Wide Web 
+Consortium HTML standard. Some browsers may not support all of these 
+references.</p>
+
+</div>
+
+<p />
+<hr />
+<p />
+<table class="r">
+<tr><td align="center">
+<form id="feedback" method="post" action="/cgi-bin/FeedbackForm.pl">
+<div>
+<input type="hidden" name="pagetitle" value="&lt;cite&gt;Unum: Number/Unicode/HTML Converter&lt;/cite&gt;" />
+<input type="hidden" name="backlink" value="Back to &lt;cite&gt;Unum: Number/Unicode/HTML Converter&lt;/cite&gt;" />
+<input type="submit" value=" Send Feedback " />
+</div>
+</form>
+</td></tr>
+<tr><td align="center">
+    <a href="http://validator.w3.org/check?uri=http://www.fourmilab.ch/webtools/unum/index.html"
+       rel="Target:FourmilabValidation" class="i"><img class="b0"
+       src="/images/icons/valid-xhtml10.png"
+       alt="Valid XHTML 1.0" height="31" width="88" /></a>
+</td></tr>
+</table>
+<address>
+by <a href="/">John Walker</a><br />
+February, 2006<br />
+Updated: September, 2017
+</address>
+<p class="cn">
+<em>This document is in the public domain.</em>
+</p>
+</body>
+</html>

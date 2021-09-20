@@ -1,0 +1,1090 @@
+     -- unum/unum.pl --
+   Octal  Decimal      Hex        HTML    Character   Unicode
+ 0177355    65261   0xFEED    &#65261;    "ﻭ"         ARABIC LETTER WAW ISOLATED FORM
+   Octal  Decimal      Hex        HTML    Character   Unicode
+  023042     9762   0x2622     &#9762;    "☢"         RADIOACTIVE SIGN
+   Octal  Decimal      Hex        HTML    Character   Unicode
+    0377      255     0xFF      &yuml;    "ÿ"         LATIN SMALL LETTER Y WITH DIAERESIS
+   Octal  Decimal      Hex        HTML    Character   Unicode
+    0323      211     0xD3    &Oacute;    "Ó"         LATIN CAPITAL LETTER O WITH ACUTE
+   Octal  Decimal      Hex        HTML    Character   Unicode
+     021       17     0x11       &#17;    "\x{11}"    <control> DEVICE CONTROL ONE, DC1, Ctrl-Q
+   Octal  Decimal      Hex        HTML    Character   Unicode
+  021053     8747   0x222B &int;,&Integral;    "∫"         INTEGRAL
+  021054     8748   0x222C       &Int;    "∬"         DOUBLE INTEGRAL
+  021055     8749   0x222D &iiint;,&tint;    "∭"         TRIPLE INTEGRAL
+  021056     8750   0x222E &conint;,&ContourIntegral;,&oint;    "∮"         CONTOUR INTEGRAL
+  021057     8751   0x222F &Conint;,&DoubleContourIntegral;    "∯"         SURFACE INTEGRAL
+  021060     8752   0x2230   &Cconint;    "∰"         VOLUME INTEGRAL
+  021061     8753   0x2231     &cwint;    "∱"         CLOCKWISE INTEGRAL
+  021062     8754   0x2232 &ClockwiseContourIntegral;,&cwconint;    "∲"         CLOCKWISE CONTOUR INTEGRAL
+  021063     8755   0x2233 &awconint;,&CounterClockwiseContourIntegral;    "∳"         ANTICLOCKWISE CONTOUR INTEGRAL
+  021440     8992   0x2320     &#8992;    "⌠"         TOP HALF INTEGRAL
+  021441     8993   0x2321     &#8993;    "⌡"         BOTTOM HALF INTEGRAL
+  021656     9134   0x23AE     &#9134;    "⎮"         INTEGRAL EXTENSION
+  025013    10763   0x2A0B    &#10763;    "⨋"         SUMMATION WITH INTEGRAL
+  025014    10764   0x2A0C &iiiint;,&qint;    "⨌"         QUADRUPLE INTEGRAL OPERATOR
+  025015    10765   0x2A0D  &fpartint;    "⨍"         FINITE PART INTEGRAL
+  025016    10766   0x2A0E    &#10766;    "⨎"         INTEGRAL WITH DOUBLE STROKE
+  025017    10767   0x2A0F    &#10767;    "⨏"         INTEGRAL AVERAGE WITH SLASH
+  025025    10773   0x2A15  &pointint;    "⨕"         INTEGRAL AROUND A POINT OPERATOR
+  025026    10774   0x2A16   &quatint;    "⨖"         QUATERNION INTEGRAL OPERATOR
+  025027    10775   0x2A17  &intlarhk;    "⨗"         INTEGRAL WITH LEFTWARDS ARROW WITH HOOK
+  025030    10776   0x2A18    &#10776;    "⨘"         INTEGRAL WITH TIMES SIGN
+  025031    10777   0x2A19    &#10777;    "⨙"         INTEGRAL WITH INTERSECTION
+  025032    10778   0x2A1A    &#10778;    "⨚"         INTEGRAL WITH UNION
+  025033    10779   0x2A1B    &#10779;    "⨛"         INTEGRAL WITH OVERBAR
+  025034    10780   0x2A1C    &#10780;    "⨜"         INTEGRAL WITH UNDERBAR
+   Octal  Decimal      Hex        HTML    Character   Unicode
+     042       34     0x22 &QUOT;,&quot;    """         QUOTATION MARK
+    0253      171     0xAB     &laquo;    "«"         LEFT-POINTING DOUBLE ANGLE QUOTATION MARK
+    0273      187     0xBB     &raquo;    "»"         RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK
+  020030     8216   0x2018 &lsquo;,&OpenCurlyQuote;    "‘"         LEFT SINGLE QUOTATION MARK
+  020031     8217   0x2019 &CloseCurlyQuote;,&rsquo;,&rsquor;    "’"         RIGHT SINGLE QUOTATION MARK
+  020032     8218   0x201A &lsquor;,&sbquo;    "‚"         SINGLE LOW-9 QUOTATION MARK
+  020034     8220   0x201C &ldquo;,&OpenCurlyDoubleQuote;    "“"         LEFT DOUBLE QUOTATION MARK
+  020035     8221   0x201D &CloseCurlyDoubleQuote;,&rdquo;,&rdquor;    "”"         RIGHT DOUBLE QUOTATION MARK
+  020036     8222   0x201E &bdquo;,&ldquor;    "„"         DOUBLE LOW-9 QUOTATION MARK
+  020071     8249   0x2039    &lsaquo;    "‹"         SINGLE LEFT-POINTING ANGLE QUOTATION MARK
+  020072     8250   0x203A    &rsaquo;    "›"         SINGLE RIGHT-POINTING ANGLE QUOTATION MARK
+   Octal  Decimal      Hex        HTML    Character   Unicode
+   01641      929    0x3A1       &Rho;    "Ρ"         GREEK CAPITAL LETTER RHO
+   01701      961    0x3C1       &rho;    "ρ"         GREEK SMALL LETTER RHO
+   01761     1009    0x3F1 &rhov;,&varrho;    "ϱ"         GREEK RHO SYMBOL
+   01774     1020    0x3FC     &#1020;    "ϼ"         GREEK RHO WITH STROKE SYMBOL
+  016451     7465   0x1D29     &#7465;    "ᴩ"         GREEK LETTER SMALL CAPITAL RHO
+  016550     7528   0x1D68     &#7528;    "ᵨ"         GREEK SUBSCRIPT SMALL LETTER RHO
+  017744     8164   0x1FE4     &#8164;    "ῤ"         GREEK SMALL LETTER RHO WITH PSILI
+  017745     8165   0x1FE5     &#8165;    "ῥ"         GREEK SMALL LETTER RHO WITH DASIA
+  017754     8172   0x1FEC     &#8172;    "Ῥ"         GREEK CAPITAL LETTER RHO WITH DASIA
+ 0200640    65952  0x101A0    &#65952;    "𐆠"         GREEK SYMBOL TAU RHO
+   Start        End  Unicode Block
+  U+0370 -   U+03FF  Greek and Coptic
+  U+1F00 -   U+1FFF  Greek Extended
+ U+10140 -  U+1018F  Ancient Greek Numbers
+ U+1D200 -  U+1D24F  Ancient Greek Musical Notation
+   Start        End  Unicode Block
+  U+0000 -   U+007F  Basic Latin
+  U+0080 -   U+00FF  Latin-1 Supplement
+  U+0100 -   U+017F  Latin Extended-A
+  U+0180 -   U+024F  Latin Extended-B
+  U+0250 -   U+02AF  IPA Extensions
+  U+02B0 -   U+02FF  Spacing Modifier Letters
+  U+0300 -   U+036F  Combining Diacritical Marks
+  U+0370 -   U+03FF  Greek and Coptic
+  U+0400 -   U+04FF  Cyrillic
+  U+0500 -   U+052F  Cyrillic Supplement
+  U+0530 -   U+058F  Armenian
+  U+0590 -   U+05FF  Hebrew
+  U+0600 -   U+06FF  Arabic
+  U+0700 -   U+074F  Syriac
+  U+0750 -   U+077F  Arabic Supplement
+  U+0780 -   U+07BF  Thaana
+  U+07C0 -   U+07FF  NKo
+  U+0800 -   U+083F  Samaritan
+  U+0840 -   U+085F  Mandaic
+  U+0860 -   U+086F  Syriac Supplement
+  U+08A0 -   U+08FF  Arabic Extended-A
+  U+0900 -   U+097F  Devanagari
+  U+0980 -   U+09FF  Bengali
+  U+0A00 -   U+0A7F  Gurmukhi
+  U+0A80 -   U+0AFF  Gujarati
+  U+0B00 -   U+0B7F  Oriya
+  U+0B80 -   U+0BFF  Tamil
+  U+0C00 -   U+0C7F  Telugu
+  U+0C80 -   U+0CFF  Kannada
+  U+0D00 -   U+0D7F  Malayalam
+  U+0D80 -   U+0DFF  Sinhala
+  U+0E00 -   U+0E7F  Thai
+  U+0E80 -   U+0EFF  Lao
+  U+0F00 -   U+0FFF  Tibetan
+  U+1000 -   U+109F  Myanmar
+  U+10A0 -   U+10FF  Georgian
+  U+1100 -   U+11FF  Hangul Jamo
+  U+1200 -   U+137F  Ethiopic
+  U+1380 -   U+139F  Ethiopic Supplement
+  U+13A0 -   U+13FF  Cherokee
+  U+1400 -   U+167F  Unified Canadian Aboriginal Syllabics
+  U+1680 -   U+169F  Ogham
+  U+16A0 -   U+16FF  Runic
+  U+1700 -   U+171F  Tagalog
+  U+1720 -   U+173F  Hanunoo
+  U+1740 -   U+175F  Buhid
+  U+1760 -   U+177F  Tagbanwa
+  U+1780 -   U+17FF  Khmer
+  U+1800 -   U+18AF  Mongolian
+  U+18B0 -   U+18FF  Unified Canadian Aboriginal Syllabics Extended
+  U+1900 -   U+194F  Limbu
+  U+1950 -   U+197F  Tai Le
+  U+1980 -   U+19DF  New Tai Lue
+  U+19E0 -   U+19FF  Khmer Symbols
+  U+1A00 -   U+1A1F  Buginese
+  U+1A20 -   U+1AAF  Tai Tham
+  U+1AB0 -   U+1AFF  Combining Diacritical Marks Extended
+  U+1B00 -   U+1B7F  Balinese
+  U+1B80 -   U+1BBF  Sundanese
+  U+1BC0 -   U+1BFF  Batak
+  U+1C00 -   U+1C4F  Lepcha
+  U+1C50 -   U+1C7F  Ol Chiki
+  U+1C80 -   U+1C8F  Cyrillic Extended-C
+  U+1C90 -   U+1CBF  Georgian Extended
+  U+1CC0 -   U+1CCF  Sundanese Supplement
+  U+1CD0 -   U+1CFF  Vedic Extensions
+  U+1D00 -   U+1D7F  Phonetic Extensions
+  U+1D80 -   U+1DBF  Phonetic Extensions Supplement
+  U+1DC0 -   U+1DFF  Combining Diacritical Marks Supplement
+  U+1E00 -   U+1EFF  Latin Extended Additional
+  U+1F00 -   U+1FFF  Greek Extended
+  U+2000 -   U+206F  General Punctuation
+  U+2070 -   U+209F  Superscripts and Subscripts
+  U+20A0 -   U+20CF  Currency Symbols
+  U+20D0 -   U+20FF  Combining Diacritical Marks for Symbols
+  U+2100 -   U+214F  Letterlike Symbols
+  U+2150 -   U+218F  Number Forms
+  U+2190 -   U+21FF  Arrows
+  U+2200 -   U+22FF  Mathematical Operators
+  U+2300 -   U+23FF  Miscellaneous Technical
+  U+2400 -   U+243F  Control Pictures
+  U+2440 -   U+245F  Optical Character Recognition
+  U+2460 -   U+24FF  Enclosed Alphanumerics
+  U+2500 -   U+257F  Box Drawing
+  U+2580 -   U+259F  Block Elements
+  U+25A0 -   U+25FF  Geometric Shapes
+  U+2600 -   U+26FF  Miscellaneous Symbols
+  U+2700 -   U+27BF  Dingbats
+  U+27C0 -   U+27EF  Miscellaneous Mathematical Symbols-A
+  U+27F0 -   U+27FF  Supplemental Arrows-A
+  U+2800 -   U+28FF  Braille Patterns
+  U+2900 -   U+297F  Supplemental Arrows-B
+  U+2980 -   U+29FF  Miscellaneous Mathematical Symbols-B
+  U+2A00 -   U+2AFF  Supplemental Mathematical Operators
+  U+2B00 -   U+2BFF  Miscellaneous Symbols and Arrows
+  U+2C00 -   U+2C5F  Glagolitic
+  U+2C60 -   U+2C7F  Latin Extended-C
+  U+2C80 -   U+2CFF  Coptic
+  U+2D00 -   U+2D2F  Georgian Supplement
+  U+2D30 -   U+2D7F  Tifinagh
+  U+2D80 -   U+2DDF  Ethiopic Extended
+  U+2DE0 -   U+2DFF  Cyrillic Extended-A
+  U+2E00 -   U+2E7F  Supplemental Punctuation
+  U+2E80 -   U+2EFF  CJK Radicals Supplement
+  U+2F00 -   U+2FDF  Kangxi Radicals
+  U+2FF0 -   U+2FFF  Ideographic Description Characters
+  U+3000 -   U+303F  CJK Symbols and Punctuation
+  U+3040 -   U+309F  Hiragana
+  U+30A0 -   U+30FF  Katakana
+  U+3100 -   U+312F  Bopomofo
+  U+3130 -   U+318F  Hangul Compatibility Jamo
+  U+3190 -   U+319F  Kanbun
+  U+31A0 -   U+31BF  Bopomofo Extended
+  U+31C0 -   U+31EF  CJK Strokes
+  U+31F0 -   U+31FF  Katakana Phonetic Extensions
+  U+3200 -   U+32FF  Enclosed CJK Letters and Months
+  U+3300 -   U+33FF  CJK Compatibility
+  U+3400 -   U+4DBF  CJK Unified Ideographs Extension A
+  U+4DC0 -   U+4DFF  Yijing Hexagram Symbols
+  U+4E00 -   U+9FFF  CJK Unified Ideographs
+  U+A000 -   U+A48F  Yi Syllables
+  U+A490 -   U+A4CF  Yi Radicals
+  U+A4D0 -   U+A4FF  Lisu
+  U+A500 -   U+A63F  Vai
+  U+A640 -   U+A69F  Cyrillic Extended-B
+  U+A6A0 -   U+A6FF  Bamum
+  U+A700 -   U+A71F  Modifier Tone Letters
+  U+A720 -   U+A7FF  Latin Extended-D
+  U+A800 -   U+A82F  Syloti Nagri
+  U+A830 -   U+A83F  Common Indic Number Forms
+  U+A840 -   U+A87F  Phags-pa
+  U+A880 -   U+A8DF  Saurashtra
+  U+A8E0 -   U+A8FF  Devanagari Extended
+  U+A900 -   U+A92F  Kayah Li
+  U+A930 -   U+A95F  Rejang
+  U+A960 -   U+A97F  Hangul Jamo Extended-A
+  U+A980 -   U+A9DF  Javanese
+  U+A9E0 -   U+A9FF  Myanmar Extended-B
+  U+AA00 -   U+AA5F  Cham
+  U+AA60 -   U+AA7F  Myanmar Extended-A
+  U+AA80 -   U+AADF  Tai Viet
+  U+AAE0 -   U+AAFF  Meetei Mayek Extensions
+  U+AB00 -   U+AB2F  Ethiopic Extended-A
+  U+AB30 -   U+AB6F  Latin Extended-E
+  U+AB70 -   U+ABBF  Cherokee Supplement
+  U+ABC0 -   U+ABFF  Meetei Mayek
+  U+AC00 -   U+D7AF  Hangul Syllables
+  U+D7B0 -   U+D7FF  Hangul Jamo Extended-B
+  U+D800 -   U+DB7F  High Surrogates
+  U+DB80 -   U+DBFF  High Private Use Surrogates
+  U+DC00 -   U+DFFF  Low Surrogates
+  U+E000 -   U+F8FF  Private Use Area
+  U+F900 -   U+FAFF  CJK Compatibility Ideographs
+  U+FB00 -   U+FB4F  Alphabetic Presentation Forms
+  U+FB50 -   U+FDFF  Arabic Presentation Forms-A
+  U+FE00 -   U+FE0F  Variation Selectors
+  U+FE10 -   U+FE1F  Vertical Forms
+  U+FE20 -   U+FE2F  Combining Half Marks
+  U+FE30 -   U+FE4F  CJK Compatibility Forms
+  U+FE50 -   U+FE6F  Small Form Variants
+  U+FE70 -   U+FEFF  Arabic Presentation Forms-B
+  U+FF00 -   U+FFEF  Halfwidth and Fullwidth Forms
+  U+FFF0 -   U+FFFF  Specials
+ U+10000 -  U+1007F  Linear B Syllabary
+ U+10080 -  U+100FF  Linear B Ideograms
+ U+10100 -  U+1013F  Aegean Numbers
+ U+10140 -  U+1018F  Ancient Greek Numbers
+ U+10190 -  U+101CF  Ancient Symbols
+ U+101D0 -  U+101FF  Phaistos Disc
+ U+10280 -  U+1029F  Lycian
+ U+102A0 -  U+102DF  Carian
+ U+102E0 -  U+102FF  Coptic Epact Numbers
+ U+10300 -  U+1032F  Old Italic
+ U+10330 -  U+1034F  Gothic
+ U+10350 -  U+1037F  Old Permic
+ U+10380 -  U+1039F  Ugaritic
+ U+103A0 -  U+103DF  Old Persian
+ U+10400 -  U+1044F  Deseret
+ U+10450 -  U+1047F  Shavian
+ U+10480 -  U+104AF  Osmanya
+ U+104B0 -  U+104FF  Osage
+ U+10500 -  U+1052F  Elbasan
+ U+10530 -  U+1056F  Caucasian Albanian
+ U+10600 -  U+1077F  Linear A
+ U+10800 -  U+1083F  Cypriot Syllabary
+ U+10840 -  U+1085F  Imperial Aramaic
+ U+10860 -  U+1087F  Palmyrene
+ U+10880 -  U+108AF  Nabataean
+ U+108E0 -  U+108FF  Hatran
+ U+10900 -  U+1091F  Phoenician
+ U+10920 -  U+1093F  Lydian
+ U+10980 -  U+1099F  Meroitic Hieroglyphs
+ U+109A0 -  U+109FF  Meroitic Cursive
+ U+10A00 -  U+10A5F  Kharoshthi
+ U+10A60 -  U+10A7F  Old South Arabian
+ U+10A80 -  U+10A9F  Old North Arabian
+ U+10AC0 -  U+10AFF  Manichaean
+ U+10B00 -  U+10B3F  Avestan
+ U+10B40 -  U+10B5F  Inscriptional Parthian
+ U+10B60 -  U+10B7F  Inscriptional Pahlavi
+ U+10B80 -  U+10BAF  Psalter Pahlavi
+ U+10C00 -  U+10C4F  Old Turkic
+ U+10C80 -  U+10CFF  Old Hungarian
+ U+10D00 -  U+10D3F  Hanifi Rohingya
+ U+10E60 -  U+10E7F  Rumi Numeral Symbols
+ U+10E80 -  U+10EBF  Yezidi
+ U+10F00 -  U+10F2F  Old Sogdian
+ U+10F30 -  U+10F6F  Sogdian
+ U+10FB0 -  U+10FDF  Chorasmian
+ U+10FE0 -  U+10FFF  Elymaic
+ U+11000 -  U+1107F  Brahmi
+ U+11080 -  U+110CF  Kaithi
+ U+110D0 -  U+110FF  Sora Sompeng
+ U+11100 -  U+1114F  Chakma
+ U+11150 -  U+1117F  Mahajani
+ U+11180 -  U+111DF  Sharada
+ U+111E0 -  U+111FF  Sinhala Archaic Numbers
+ U+11200 -  U+1124F  Khojki
+ U+11280 -  U+112AF  Multani
+ U+112B0 -  U+112FF  Khudawadi
+ U+11300 -  U+1137F  Grantha
+ U+11400 -  U+1147F  Newa
+ U+11480 -  U+114DF  Tirhuta
+ U+11580 -  U+115FF  Siddham
+ U+11600 -  U+1165F  Modi
+ U+11660 -  U+1167F  Mongolian Supplement
+ U+11680 -  U+116CF  Takri
+ U+11700 -  U+1173F  Ahom
+ U+11800 -  U+1184F  Dogra
+ U+118A0 -  U+118FF  Warang Citi
+ U+11900 -  U+1195F  Dives Akuru
+ U+119A0 -  U+119FF  Nandinagari
+ U+11A00 -  U+11A4F  Zanabazar Square
+ U+11A50 -  U+11AAF  Soyombo
+ U+11AC0 -  U+11AFF  Pau Cin Hau
+ U+11C00 -  U+11C6F  Bhaiksuki
+ U+11C70 -  U+11CBF  Marchen
+ U+11D00 -  U+11D5F  Masaram Gondi
+ U+11D60 -  U+11DAF  Gunjala Gondi
+ U+11EE0 -  U+11EFF  Makasar
+ U+11FB0 -  U+11FBF  Lisu Supplement
+ U+11FC0 -  U+11FFF  Tamil Supplement
+ U+12000 -  U+123FF  Cuneiform
+ U+12400 -  U+1247F  Cuneiform Numbers and Punctuation
+ U+12480 -  U+1254F  Early Dynastic Cuneiform
+ U+13000 -  U+1342F  Egyptian Hieroglyphs
+ U+13430 -  U+1343F  Egyptian Hieroglyph Format Controls
+ U+14400 -  U+1467F  Anatolian Hieroglyphs
+ U+16800 -  U+16A3F  Bamum Supplement
+ U+16A40 -  U+16A6F  Mro
+ U+16AD0 -  U+16AFF  Bassa Vah
+ U+16B00 -  U+16B8F  Pahawh Hmong
+ U+16E40 -  U+16E9F  Medefaidrin
+ U+16F00 -  U+16F9F  Miao
+ U+16FE0 -  U+16FFF  Ideographic Symbols and Punctuation
+ U+17000 -  U+187FF  Tangut
+ U+18800 -  U+18AFF  Tangut Components
+ U+18B00 -  U+18CFF  Khitan Small Script
+ U+18D00 -  U+18D8F  Tangut Supplement
+ U+1B000 -  U+1B0FF  Kana Supplement
+ U+1B100 -  U+1B12F  Kana Extended-A
+ U+1B130 -  U+1B16F  Small Kana Extension
+ U+1B170 -  U+1B2FF  Nushu
+ U+1BC00 -  U+1BC9F  Duployan
+ U+1BCA0 -  U+1BCAF  Shorthand Format Controls
+ U+1D000 -  U+1D0FF  Byzantine Musical Symbols
+ U+1D100 -  U+1D1FF  Musical Symbols
+ U+1D200 -  U+1D24F  Ancient Greek Musical Notation
+ U+1D2E0 -  U+1D2FF  Mayan Numerals
+ U+1D300 -  U+1D35F  Tai Xuan Jing Symbols
+ U+1D360 -  U+1D37F  Counting Rod Numerals
+ U+1D400 -  U+1D7FF  Mathematical Alphanumeric Symbols
+ U+1D800 -  U+1DAAF  Sutton SignWriting
+ U+1E000 -  U+1E02F  Glagolitic Supplement
+ U+1E100 -  U+1E14F  Nyiakeng Puachue Hmong
+ U+1E2C0 -  U+1E2FF  Wancho
+ U+1E800 -  U+1E8DF  Mende Kikakui
+ U+1E900 -  U+1E95F  Adlam
+ U+1EC70 -  U+1ECBF  Indic Siyaq Numbers
+ U+1ED00 -  U+1ED4F  Ottoman Siyaq Numbers
+ U+1EE00 -  U+1EEFF  Arabic Mathematical Alphabetic Symbols
+ U+1F000 -  U+1F02F  Mahjong Tiles
+ U+1F030 -  U+1F09F  Domino Tiles
+ U+1F0A0 -  U+1F0FF  Playing Cards
+ U+1F100 -  U+1F1FF  Enclosed Alphanumeric Supplement
+ U+1F200 -  U+1F2FF  Enclosed Ideographic Supplement
+ U+1F300 -  U+1F5FF  Miscellaneous Symbols and Pictographs
+ U+1F600 -  U+1F64F  Emoticons
+ U+1F650 -  U+1F67F  Ornamental Dingbats
+ U+1F680 -  U+1F6FF  Transport and Map Symbols
+ U+1F700 -  U+1F77F  Alchemical Symbols
+ U+1F780 -  U+1F7FF  Geometric Shapes Extended
+ U+1F800 -  U+1F8FF  Supplemental Arrows-C
+ U+1F900 -  U+1F9FF  Supplemental Symbols and Pictographs
+ U+1FA00 -  U+1FA6F  Chess Symbols
+ U+1FA70 -  U+1FAFF  Symbols and Pictographs Extended-A
+ U+1FB00 -  U+1FBFF  Symbols for Legacy Computing
+ U+20000 -  U+2A6DF  CJK Unified Ideographs Extension B
+ U+2A700 -  U+2B73F  CJK Unified Ideographs Extension C
+ U+2B740 -  U+2B81F  CJK Unified Ideographs Extension D
+ U+2B820 -  U+2CEAF  CJK Unified Ideographs Extension E
+ U+2CEB0 -  U+2EBEF  CJK Unified Ideographs Extension F
+ U+2F800 -  U+2FA1F  CJK Compatibility Ideographs Supplement
+ U+30000 -  U+3134F  CJK Unified Ideographs Extension G
+ U+E0000 -  U+E007F  Tags
+ U+E0100 -  U+E01EF  Variation Selectors Supplement
+ U+F0000 -  U+FFFFF  Supplementary Private Use Area-A
+U+100000 - U+10FFFF  Supplementary Private Use Area-B
+   Start        End  Unicode Block
+  U+0E00 -   U+0E7F  Thai
+   Octal  Decimal      Hex        HTML    Character   Unicode
+   07000     3584    0xE00     &#3584;    "฀"         Thai U+00E00
+   07001     3585    0xE01     &#3585;    "ก"         THAI CHARACTER KO KAI
+   07002     3586    0xE02     &#3586;    "ข"         THAI CHARACTER KHO KHAI
+   07003     3587    0xE03     &#3587;    "ฃ"         THAI CHARACTER KHO KHUAT
+   07004     3588    0xE04     &#3588;    "ค"         THAI CHARACTER KHO KHWAI
+   07005     3589    0xE05     &#3589;    "ฅ"         THAI CHARACTER KHO KHON
+   07006     3590    0xE06     &#3590;    "ฆ"         THAI CHARACTER KHO RAKHANG
+   07007     3591    0xE07     &#3591;    "ง"         THAI CHARACTER NGO NGU
+   07010     3592    0xE08     &#3592;    "จ"         THAI CHARACTER CHO CHAN
+   07011     3593    0xE09     &#3593;    "ฉ"         THAI CHARACTER CHO CHING
+   07012     3594    0xE0A     &#3594;    "ช"         THAI CHARACTER CHO CHANG
+   07013     3595    0xE0B     &#3595;    "ซ"         THAI CHARACTER SO SO
+   07014     3596    0xE0C     &#3596;    "ฌ"         THAI CHARACTER CHO CHOE
+   07015     3597    0xE0D     &#3597;    "ญ"         THAI CHARACTER YO YING
+   07016     3598    0xE0E     &#3598;    "ฎ"         THAI CHARACTER DO CHADA
+   07017     3599    0xE0F     &#3599;    "ฏ"         THAI CHARACTER TO PATAK
+   07020     3600    0xE10     &#3600;    "ฐ"         THAI CHARACTER THO THAN
+   07021     3601    0xE11     &#3601;    "ฑ"         THAI CHARACTER THO NANGMONTHO
+   07022     3602    0xE12     &#3602;    "ฒ"         THAI CHARACTER THO PHUTHAO
+   07023     3603    0xE13     &#3603;    "ณ"         THAI CHARACTER NO NEN
+   07024     3604    0xE14     &#3604;    "ด"         THAI CHARACTER DO DEK
+   07025     3605    0xE15     &#3605;    "ต"         THAI CHARACTER TO TAO
+   07026     3606    0xE16     &#3606;    "ถ"         THAI CHARACTER THO THUNG
+   07027     3607    0xE17     &#3607;    "ท"         THAI CHARACTER THO THAHAN
+   07030     3608    0xE18     &#3608;    "ธ"         THAI CHARACTER THO THONG
+   07031     3609    0xE19     &#3609;    "น"         THAI CHARACTER NO NU
+   07032     3610    0xE1A     &#3610;    "บ"         THAI CHARACTER BO BAIMAI
+   07033     3611    0xE1B     &#3611;    "ป"         THAI CHARACTER PO PLA
+   07034     3612    0xE1C     &#3612;    "ผ"         THAI CHARACTER PHO PHUNG
+   07035     3613    0xE1D     &#3613;    "ฝ"         THAI CHARACTER FO FA
+   07036     3614    0xE1E     &#3614;    "พ"         THAI CHARACTER PHO PHAN
+   07037     3615    0xE1F     &#3615;    "ฟ"         THAI CHARACTER FO FAN
+   07040     3616    0xE20     &#3616;    "ภ"         THAI CHARACTER PHO SAMPHAO
+   07041     3617    0xE21     &#3617;    "ม"         THAI CHARACTER MO MA
+   07042     3618    0xE22     &#3618;    "ย"         THAI CHARACTER YO YAK
+   07043     3619    0xE23     &#3619;    "ร"         THAI CHARACTER RO RUA
+   07044     3620    0xE24     &#3620;    "ฤ"         THAI CHARACTER RU
+   07045     3621    0xE25     &#3621;    "ล"         THAI CHARACTER LO LING
+   07046     3622    0xE26     &#3622;    "ฦ"         THAI CHARACTER LU
+   07047     3623    0xE27     &#3623;    "ว"         THAI CHARACTER WO WAEN
+   07050     3624    0xE28     &#3624;    "ศ"         THAI CHARACTER SO SALA
+   07051     3625    0xE29     &#3625;    "ษ"         THAI CHARACTER SO RUSI
+   07052     3626    0xE2A     &#3626;    "ส"         THAI CHARACTER SO SUA
+   07053     3627    0xE2B     &#3627;    "ห"         THAI CHARACTER HO HIP
+   07054     3628    0xE2C     &#3628;    "ฬ"         THAI CHARACTER LO CHULA
+   07055     3629    0xE2D     &#3629;    "อ"         THAI CHARACTER O ANG
+   07056     3630    0xE2E     &#3630;    "ฮ"         THAI CHARACTER HO NOKHUK
+   07057     3631    0xE2F     &#3631;    "ฯ"         THAI CHARACTER PAIYANNOI
+   07060     3632    0xE30     &#3632;    "ะ"         THAI CHARACTER SARA A
+   07061     3633    0xE31     &#3633;    "ั"         THAI CHARACTER MAI HAN-AKAT
+   07062     3634    0xE32     &#3634;    "า"         THAI CHARACTER SARA AA
+   07063     3635    0xE33     &#3635;    "ำ"         THAI CHARACTER SARA AM
+   07064     3636    0xE34     &#3636;    "ิ"         THAI CHARACTER SARA I
+   07065     3637    0xE35     &#3637;    "ี"         THAI CHARACTER SARA II
+   07066     3638    0xE36     &#3638;    "ึ"         THAI CHARACTER SARA UE
+   07067     3639    0xE37     &#3639;    "ื"         THAI CHARACTER SARA UEE
+   07070     3640    0xE38     &#3640;    "ุ"         THAI CHARACTER SARA U
+   07071     3641    0xE39     &#3641;    "ู"         THAI CHARACTER SARA UU
+   07072     3642    0xE3A     &#3642;    "ฺ"         THAI CHARACTER PHINTHU
+   07073     3643    0xE3B     &#3643;    "฻"         Thai U+00E3B
+   07074     3644    0xE3C     &#3644;    "฼"         Thai U+00E3C
+   07075     3645    0xE3D     &#3645;    "฽"         Thai U+00E3D
+   07076     3646    0xE3E     &#3646;    "฾"         Thai U+00E3E
+   07077     3647    0xE3F     &#3647;    "฿"         THAI CURRENCY SYMBOL BAHT
+   07100     3648    0xE40     &#3648;    "เ"         THAI CHARACTER SARA E
+   07101     3649    0xE41     &#3649;    "แ"         THAI CHARACTER SARA AE
+   07102     3650    0xE42     &#3650;    "โ"         THAI CHARACTER SARA O
+   07103     3651    0xE43     &#3651;    "ใ"         THAI CHARACTER SARA AI MAIMUAN
+   07104     3652    0xE44     &#3652;    "ไ"         THAI CHARACTER SARA AI MAIMALAI
+   07105     3653    0xE45     &#3653;    "ๅ"         THAI CHARACTER LAKKHANGYAO
+   07106     3654    0xE46     &#3654;    "ๆ"         THAI CHARACTER MAIYAMOK
+   07107     3655    0xE47     &#3655;    "็"         THAI CHARACTER MAITAIKHU
+   07110     3656    0xE48     &#3656;    "่"         THAI CHARACTER MAI EK
+   07111     3657    0xE49     &#3657;    "้"         THAI CHARACTER MAI THO
+   07112     3658    0xE4A     &#3658;    "๊"         THAI CHARACTER MAI TRI
+   07113     3659    0xE4B     &#3659;    "๋"         THAI CHARACTER MAI CHATTAWA
+   07114     3660    0xE4C     &#3660;    "์"         THAI CHARACTER THANTHAKHAT
+   07115     3661    0xE4D     &#3661;    "ํ"         THAI CHARACTER NIKHAHIT
+   07116     3662    0xE4E     &#3662;    "๎"         THAI CHARACTER YAMAKKAN
+   07117     3663    0xE4F     &#3663;    "๏"         THAI CHARACTER FONGMAN
+   07120     3664    0xE50     &#3664;    "๐"         THAI DIGIT ZERO
+   07121     3665    0xE51     &#3665;    "๑"         THAI DIGIT ONE
+   07122     3666    0xE52     &#3666;    "๒"         THAI DIGIT TWO
+   07123     3667    0xE53     &#3667;    "๓"         THAI DIGIT THREE
+   07124     3668    0xE54     &#3668;    "๔"         THAI DIGIT FOUR
+   07125     3669    0xE55     &#3669;    "๕"         THAI DIGIT FIVE
+   07126     3670    0xE56     &#3670;    "๖"         THAI DIGIT SIX
+   07127     3671    0xE57     &#3671;    "๗"         THAI DIGIT SEVEN
+   07130     3672    0xE58     &#3672;    "๘"         THAI DIGIT EIGHT
+   07131     3673    0xE59     &#3673;    "๙"         THAI DIGIT NINE
+   07132     3674    0xE5A     &#3674;    "๚"         THAI CHARACTER ANGKHANKHU
+   07133     3675    0xE5B     &#3675;    "๛"         THAI CHARACTER KHOMUT
+   07134     3676    0xE5C     &#3676;    "๜"         Thai U+00E5C
+   07135     3677    0xE5D     &#3677;    "๝"         Thai U+00E5D
+   07136     3678    0xE5E     &#3678;    "๞"         Thai U+00E5E
+   07137     3679    0xE5F     &#3679;    "๟"         Thai U+00E5F
+   07140     3680    0xE60     &#3680;    "๠"         Thai U+00E60
+   07141     3681    0xE61     &#3681;    "๡"         Thai U+00E61
+   07142     3682    0xE62     &#3682;    "๢"         Thai U+00E62
+   07143     3683    0xE63     &#3683;    "๣"         Thai U+00E63
+   07144     3684    0xE64     &#3684;    "๤"         Thai U+00E64
+   07145     3685    0xE65     &#3685;    "๥"         Thai U+00E65
+   07146     3686    0xE66     &#3686;    "๦"         Thai U+00E66
+   07147     3687    0xE67     &#3687;    "๧"         Thai U+00E67
+   07150     3688    0xE68     &#3688;    "๨"         Thai U+00E68
+   07151     3689    0xE69     &#3689;    "๩"         Thai U+00E69
+   07152     3690    0xE6A     &#3690;    "๪"         Thai U+00E6A
+   07153     3691    0xE6B     &#3691;    "๫"         Thai U+00E6B
+   07154     3692    0xE6C     &#3692;    "๬"         Thai U+00E6C
+   07155     3693    0xE6D     &#3693;    "๭"         Thai U+00E6D
+   07156     3694    0xE6E     &#3694;    "๮"         Thai U+00E6E
+   07157     3695    0xE6F     &#3695;    "๯"         Thai U+00E6F
+   07160     3696    0xE70     &#3696;    "๰"         Thai U+00E70
+   07161     3697    0xE71     &#3697;    "๱"         Thai U+00E71
+   07162     3698    0xE72     &#3698;    "๲"         Thai U+00E72
+   07163     3699    0xE73     &#3699;    "๳"         Thai U+00E73
+   07164     3700    0xE74     &#3700;    "๴"         Thai U+00E74
+   07165     3701    0xE75     &#3701;    "๵"         Thai U+00E75
+   07166     3702    0xE76     &#3702;    "๶"         Thai U+00E76
+   07167     3703    0xE77     &#3703;    "๷"         Thai U+00E77
+   07170     3704    0xE78     &#3704;    "๸"         Thai U+00E78
+   07171     3705    0xE79     &#3705;    "๹"         Thai U+00E79
+   07172     3706    0xE7A     &#3706;    "๺"         Thai U+00E7A
+   07173     3707    0xE7B     &#3707;    "๻"         Thai U+00E7B
+   07174     3708    0xE7C     &#3708;    "๼"         Thai U+00E7C
+   07175     3709    0xE7D     &#3709;    "๽"         Thai U+00E7D
+   07176     3710    0xE7E     &#3710;    "๾"         Thai U+00E7E
+   07177     3711    0xE7F     &#3711;    "๿"         Thai U+00E7F
+   Octal  Decimal      Hex        HTML    Character   Unicode
+   02037     1055    0x41F       &Pcy;    "П"         CYRILLIC CAPITAL LETTER PE
+   02100     1088    0x440       &rcy;    "р"         CYRILLIC SMALL LETTER ER
+   02060     1072    0x430       &acy;    "а"         CYRILLIC SMALL LETTER A
+   02062     1074    0x432       &vcy;    "в"         CYRILLIC SMALL LETTER VE
+   02064     1076    0x434       &dcy;    "д"         CYRILLIC SMALL LETTER DE
+   02060     1072    0x430       &acy;    "а"         CYRILLIC SMALL LETTER A
+   Octal  Decimal      Hex        HTML    Character   Unicode
+   02030     1048    0x418     &#1048;    "И"         CYRILLIC CAPITAL LETTER I
+   02067     1079    0x437     &#1079;    "з"         CYRILLIC SMALL LETTER ZE
+   02062     1074    0x432     &#1074;    "в"         CYRILLIC SMALL LETTER VE
+   02065     1077    0x435     &#1077;    "е"         CYRILLIC SMALL LETTER IE
+   02101     1089    0x441     &#1089;    "с"         CYRILLIC SMALL LETTER ES
+   02102     1090    0x442     &#1090;    "т"         CYRILLIC SMALL LETTER TE
+   02070     1080    0x438     &#1080;    "и"         CYRILLIC SMALL LETTER I
+   02117     1103    0x44F     &#1103;    "я"         CYRILLIC SMALL LETTER YA
+   Octal  Decimal      Hex        HTML    Character   Unicode
+   03047     1575    0x627     &#1575;    "ا"         ARABIC LETTER ALEF
+   03104     1604    0x644     &#1604;    "ل"         ARABIC LETTER LAM
+   03071     1593    0x639     &#1593;    "ع"         ARABIC LETTER AIN
+   03061     1585    0x631     &#1585;    "ر"         ARABIC LETTER REH
+   03050     1576    0x628     &#1576;    "ب"         ARABIC LETTER BEH
+   03112     1610    0x64A     &#1610;    "ي"         ARABIC LETTER YEH
+   03051     1577    0x629     &#1577;    "ة"         ARABIC LETTER TEH MARBUTA
+   Octal  Decimal      Hex        HTML    Character   Unicode
+  070256    28846   0x70AE    &#28846;    "炮"         CJK UNIFIED IDEOGRAPH-#70AE, IRGKangXi=0668.250, RSKangXi=86.5, Def{large gun, cannon; artillery}
+                                &nbump; =
+   Octal  Decimal      Hex        HTML    Character   Unicode
+  021116     8782   0x224E &bump;,&Bumpeq;,&HumpDownHump;    "≎"         GEOMETRICALLY EQUIVALENT TO
+   01470      824    0x338      &#824;    "̸"         COMBINING LONG SOLIDUS OVERLAY
+                                &nbumpe; =
+   Octal  Decimal      Hex        HTML    Character   Unicode
+  021117     8783   0x224F &bumpe;,&bumpeq;,&HumpEqual;    "≏"         DIFFERENCE BETWEEN
+   01470      824    0x338      &#824;    "̸"         COMBINING LONG SOLIDUS OVERLAY
+   Octal  Decimal      Hex        HTML       UTF-8      Character   Unicode
+      00        0      0x0        &#0;         0x0      "\x{0}"     <control> NULL, NUL, Ctrl-@
+    0113       75     0x4B       &#75;        0x4B      "K"         LATIN CAPITAL LETTER K
+    0327      215     0xD7     &times;      0xC397      "×"         MULTIPLICATION SIGN
+  023042     9762   0x2622     &#9762;    0xE298A2      "☢"         RADIOACTIVE SIGN
+ 0372114   128076  0x1F44C   &#128076;  0xF09F918C      "👌"         OK HAND SIGN
+     -- unum_comp/unum.pl --
+   Octal  Decimal      Hex        HTML    Character   Unicode
+ 0177355    65261   0xFEED    &#65261;    "ﻭ"         ARABIC LETTER WAW ISOLATED FORM
+   Octal  Decimal      Hex        HTML    Character   Unicode
+  023042     9762   0x2622     &#9762;    "☢"         RADIOACTIVE SIGN
+   Octal  Decimal      Hex        HTML    Character   Unicode
+    0377      255     0xFF      &yuml;    "ÿ"         LATIN SMALL LETTER Y WITH DIAERESIS
+   Octal  Decimal      Hex        HTML    Character   Unicode
+    0323      211     0xD3    &Oacute;    "Ó"         LATIN CAPITAL LETTER O WITH ACUTE
+   Octal  Decimal      Hex        HTML    Character   Unicode
+     021       17     0x11       &#17;    "\x{11}"    <control> DEVICE CONTROL ONE, DC1, Ctrl-Q
+   Octal  Decimal      Hex        HTML    Character   Unicode
+  021053     8747   0x222B &int;,&Integral;    "∫"         INTEGRAL
+  021054     8748   0x222C       &Int;    "∬"         DOUBLE INTEGRAL
+  021055     8749   0x222D &iiint;,&tint;    "∭"         TRIPLE INTEGRAL
+  021056     8750   0x222E &conint;,&ContourIntegral;,&oint;    "∮"         CONTOUR INTEGRAL
+  021057     8751   0x222F &Conint;,&DoubleContourIntegral;    "∯"         SURFACE INTEGRAL
+  021060     8752   0x2230   &Cconint;    "∰"         VOLUME INTEGRAL
+  021061     8753   0x2231     &cwint;    "∱"         CLOCKWISE INTEGRAL
+  021062     8754   0x2232 &ClockwiseContourIntegral;,&cwconint;    "∲"         CLOCKWISE CONTOUR INTEGRAL
+  021063     8755   0x2233 &awconint;,&CounterClockwiseContourIntegral;    "∳"         ANTICLOCKWISE CONTOUR INTEGRAL
+  021440     8992   0x2320     &#8992;    "⌠"         TOP HALF INTEGRAL
+  021441     8993   0x2321     &#8993;    "⌡"         BOTTOM HALF INTEGRAL
+  021656     9134   0x23AE     &#9134;    "⎮"         INTEGRAL EXTENSION
+  025013    10763   0x2A0B    &#10763;    "⨋"         SUMMATION WITH INTEGRAL
+  025014    10764   0x2A0C &iiiint;,&qint;    "⨌"         QUADRUPLE INTEGRAL OPERATOR
+  025015    10765   0x2A0D  &fpartint;    "⨍"         FINITE PART INTEGRAL
+  025016    10766   0x2A0E    &#10766;    "⨎"         INTEGRAL WITH DOUBLE STROKE
+  025017    10767   0x2A0F    &#10767;    "⨏"         INTEGRAL AVERAGE WITH SLASH
+  025025    10773   0x2A15  &pointint;    "⨕"         INTEGRAL AROUND A POINT OPERATOR
+  025026    10774   0x2A16   &quatint;    "⨖"         QUATERNION INTEGRAL OPERATOR
+  025027    10775   0x2A17  &intlarhk;    "⨗"         INTEGRAL WITH LEFTWARDS ARROW WITH HOOK
+  025030    10776   0x2A18    &#10776;    "⨘"         INTEGRAL WITH TIMES SIGN
+  025031    10777   0x2A19    &#10777;    "⨙"         INTEGRAL WITH INTERSECTION
+  025032    10778   0x2A1A    &#10778;    "⨚"         INTEGRAL WITH UNION
+  025033    10779   0x2A1B    &#10779;    "⨛"         INTEGRAL WITH OVERBAR
+  025034    10780   0x2A1C    &#10780;    "⨜"         INTEGRAL WITH UNDERBAR
+   Octal  Decimal      Hex        HTML    Character   Unicode
+     042       34     0x22 &QUOT;,&quot;    """         QUOTATION MARK
+    0253      171     0xAB     &laquo;    "«"         LEFT-POINTING DOUBLE ANGLE QUOTATION MARK
+    0273      187     0xBB     &raquo;    "»"         RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK
+  020030     8216   0x2018 &lsquo;,&OpenCurlyQuote;    "‘"         LEFT SINGLE QUOTATION MARK
+  020031     8217   0x2019 &CloseCurlyQuote;,&rsquo;,&rsquor;    "’"         RIGHT SINGLE QUOTATION MARK
+  020032     8218   0x201A &lsquor;,&sbquo;    "‚"         SINGLE LOW-9 QUOTATION MARK
+  020034     8220   0x201C &ldquo;,&OpenCurlyDoubleQuote;    "“"         LEFT DOUBLE QUOTATION MARK
+  020035     8221   0x201D &CloseCurlyDoubleQuote;,&rdquo;,&rdquor;    "”"         RIGHT DOUBLE QUOTATION MARK
+  020036     8222   0x201E &bdquo;,&ldquor;    "„"         DOUBLE LOW-9 QUOTATION MARK
+  020071     8249   0x2039    &lsaquo;    "‹"         SINGLE LEFT-POINTING ANGLE QUOTATION MARK
+  020072     8250   0x203A    &rsaquo;    "›"         SINGLE RIGHT-POINTING ANGLE QUOTATION MARK
+   Octal  Decimal      Hex        HTML    Character   Unicode
+   01641      929    0x3A1       &Rho;    "Ρ"         GREEK CAPITAL LETTER RHO
+   01701      961    0x3C1       &rho;    "ρ"         GREEK SMALL LETTER RHO
+   01761     1009    0x3F1 &rhov;,&varrho;    "ϱ"         GREEK RHO SYMBOL
+   01774     1020    0x3FC     &#1020;    "ϼ"         GREEK RHO WITH STROKE SYMBOL
+  016451     7465   0x1D29     &#7465;    "ᴩ"         GREEK LETTER SMALL CAPITAL RHO
+  016550     7528   0x1D68     &#7528;    "ᵨ"         GREEK SUBSCRIPT SMALL LETTER RHO
+  017744     8164   0x1FE4     &#8164;    "ῤ"         GREEK SMALL LETTER RHO WITH PSILI
+  017745     8165   0x1FE5     &#8165;    "ῥ"         GREEK SMALL LETTER RHO WITH DASIA
+  017754     8172   0x1FEC     &#8172;    "Ῥ"         GREEK CAPITAL LETTER RHO WITH DASIA
+ 0200640    65952  0x101A0    &#65952;    "𐆠"         GREEK SYMBOL TAU RHO
+   Start        End  Unicode Block
+  U+0370 -   U+03FF  Greek and Coptic
+  U+1F00 -   U+1FFF  Greek Extended
+ U+10140 -  U+1018F  Ancient Greek Numbers
+ U+1D200 -  U+1D24F  Ancient Greek Musical Notation
+   Start        End  Unicode Block
+  U+0000 -   U+007F  Basic Latin
+  U+0080 -   U+00FF  Latin-1 Supplement
+  U+0100 -   U+017F  Latin Extended-A
+  U+0180 -   U+024F  Latin Extended-B
+  U+0250 -   U+02AF  IPA Extensions
+  U+02B0 -   U+02FF  Spacing Modifier Letters
+  U+0300 -   U+036F  Combining Diacritical Marks
+  U+0370 -   U+03FF  Greek and Coptic
+  U+0400 -   U+04FF  Cyrillic
+  U+0500 -   U+052F  Cyrillic Supplement
+  U+0530 -   U+058F  Armenian
+  U+0590 -   U+05FF  Hebrew
+  U+0600 -   U+06FF  Arabic
+  U+0700 -   U+074F  Syriac
+  U+0750 -   U+077F  Arabic Supplement
+  U+0780 -   U+07BF  Thaana
+  U+07C0 -   U+07FF  NKo
+  U+0800 -   U+083F  Samaritan
+  U+0840 -   U+085F  Mandaic
+  U+0860 -   U+086F  Syriac Supplement
+  U+08A0 -   U+08FF  Arabic Extended-A
+  U+0900 -   U+097F  Devanagari
+  U+0980 -   U+09FF  Bengali
+  U+0A00 -   U+0A7F  Gurmukhi
+  U+0A80 -   U+0AFF  Gujarati
+  U+0B00 -   U+0B7F  Oriya
+  U+0B80 -   U+0BFF  Tamil
+  U+0C00 -   U+0C7F  Telugu
+  U+0C80 -   U+0CFF  Kannada
+  U+0D00 -   U+0D7F  Malayalam
+  U+0D80 -   U+0DFF  Sinhala
+  U+0E00 -   U+0E7F  Thai
+  U+0E80 -   U+0EFF  Lao
+  U+0F00 -   U+0FFF  Tibetan
+  U+1000 -   U+109F  Myanmar
+  U+10A0 -   U+10FF  Georgian
+  U+1100 -   U+11FF  Hangul Jamo
+  U+1200 -   U+137F  Ethiopic
+  U+1380 -   U+139F  Ethiopic Supplement
+  U+13A0 -   U+13FF  Cherokee
+  U+1400 -   U+167F  Unified Canadian Aboriginal Syllabics
+  U+1680 -   U+169F  Ogham
+  U+16A0 -   U+16FF  Runic
+  U+1700 -   U+171F  Tagalog
+  U+1720 -   U+173F  Hanunoo
+  U+1740 -   U+175F  Buhid
+  U+1760 -   U+177F  Tagbanwa
+  U+1780 -   U+17FF  Khmer
+  U+1800 -   U+18AF  Mongolian
+  U+18B0 -   U+18FF  Unified Canadian Aboriginal Syllabics Extended
+  U+1900 -   U+194F  Limbu
+  U+1950 -   U+197F  Tai Le
+  U+1980 -   U+19DF  New Tai Lue
+  U+19E0 -   U+19FF  Khmer Symbols
+  U+1A00 -   U+1A1F  Buginese
+  U+1A20 -   U+1AAF  Tai Tham
+  U+1AB0 -   U+1AFF  Combining Diacritical Marks Extended
+  U+1B00 -   U+1B7F  Balinese
+  U+1B80 -   U+1BBF  Sundanese
+  U+1BC0 -   U+1BFF  Batak
+  U+1C00 -   U+1C4F  Lepcha
+  U+1C50 -   U+1C7F  Ol Chiki
+  U+1C80 -   U+1C8F  Cyrillic Extended-C
+  U+1C90 -   U+1CBF  Georgian Extended
+  U+1CC0 -   U+1CCF  Sundanese Supplement
+  U+1CD0 -   U+1CFF  Vedic Extensions
+  U+1D00 -   U+1D7F  Phonetic Extensions
+  U+1D80 -   U+1DBF  Phonetic Extensions Supplement
+  U+1DC0 -   U+1DFF  Combining Diacritical Marks Supplement
+  U+1E00 -   U+1EFF  Latin Extended Additional
+  U+1F00 -   U+1FFF  Greek Extended
+  U+2000 -   U+206F  General Punctuation
+  U+2070 -   U+209F  Superscripts and Subscripts
+  U+20A0 -   U+20CF  Currency Symbols
+  U+20D0 -   U+20FF  Combining Diacritical Marks for Symbols
+  U+2100 -   U+214F  Letterlike Symbols
+  U+2150 -   U+218F  Number Forms
+  U+2190 -   U+21FF  Arrows
+  U+2200 -   U+22FF  Mathematical Operators
+  U+2300 -   U+23FF  Miscellaneous Technical
+  U+2400 -   U+243F  Control Pictures
+  U+2440 -   U+245F  Optical Character Recognition
+  U+2460 -   U+24FF  Enclosed Alphanumerics
+  U+2500 -   U+257F  Box Drawing
+  U+2580 -   U+259F  Block Elements
+  U+25A0 -   U+25FF  Geometric Shapes
+  U+2600 -   U+26FF  Miscellaneous Symbols
+  U+2700 -   U+27BF  Dingbats
+  U+27C0 -   U+27EF  Miscellaneous Mathematical Symbols-A
+  U+27F0 -   U+27FF  Supplemental Arrows-A
+  U+2800 -   U+28FF  Braille Patterns
+  U+2900 -   U+297F  Supplemental Arrows-B
+  U+2980 -   U+29FF  Miscellaneous Mathematical Symbols-B
+  U+2A00 -   U+2AFF  Supplemental Mathematical Operators
+  U+2B00 -   U+2BFF  Miscellaneous Symbols and Arrows
+  U+2C00 -   U+2C5F  Glagolitic
+  U+2C60 -   U+2C7F  Latin Extended-C
+  U+2C80 -   U+2CFF  Coptic
+  U+2D00 -   U+2D2F  Georgian Supplement
+  U+2D30 -   U+2D7F  Tifinagh
+  U+2D80 -   U+2DDF  Ethiopic Extended
+  U+2DE0 -   U+2DFF  Cyrillic Extended-A
+  U+2E00 -   U+2E7F  Supplemental Punctuation
+  U+2E80 -   U+2EFF  CJK Radicals Supplement
+  U+2F00 -   U+2FDF  Kangxi Radicals
+  U+2FF0 -   U+2FFF  Ideographic Description Characters
+  U+3000 -   U+303F  CJK Symbols and Punctuation
+  U+3040 -   U+309F  Hiragana
+  U+30A0 -   U+30FF  Katakana
+  U+3100 -   U+312F  Bopomofo
+  U+3130 -   U+318F  Hangul Compatibility Jamo
+  U+3190 -   U+319F  Kanbun
+  U+31A0 -   U+31BF  Bopomofo Extended
+  U+31C0 -   U+31EF  CJK Strokes
+  U+31F0 -   U+31FF  Katakana Phonetic Extensions
+  U+3200 -   U+32FF  Enclosed CJK Letters and Months
+  U+3300 -   U+33FF  CJK Compatibility
+  U+3400 -   U+4DBF  CJK Unified Ideographs Extension A
+  U+4DC0 -   U+4DFF  Yijing Hexagram Symbols
+  U+4E00 -   U+9FFF  CJK Unified Ideographs
+  U+A000 -   U+A48F  Yi Syllables
+  U+A490 -   U+A4CF  Yi Radicals
+  U+A4D0 -   U+A4FF  Lisu
+  U+A500 -   U+A63F  Vai
+  U+A640 -   U+A69F  Cyrillic Extended-B
+  U+A6A0 -   U+A6FF  Bamum
+  U+A700 -   U+A71F  Modifier Tone Letters
+  U+A720 -   U+A7FF  Latin Extended-D
+  U+A800 -   U+A82F  Syloti Nagri
+  U+A830 -   U+A83F  Common Indic Number Forms
+  U+A840 -   U+A87F  Phags-pa
+  U+A880 -   U+A8DF  Saurashtra
+  U+A8E0 -   U+A8FF  Devanagari Extended
+  U+A900 -   U+A92F  Kayah Li
+  U+A930 -   U+A95F  Rejang
+  U+A960 -   U+A97F  Hangul Jamo Extended-A
+  U+A980 -   U+A9DF  Javanese
+  U+A9E0 -   U+A9FF  Myanmar Extended-B
+  U+AA00 -   U+AA5F  Cham
+  U+AA60 -   U+AA7F  Myanmar Extended-A
+  U+AA80 -   U+AADF  Tai Viet
+  U+AAE0 -   U+AAFF  Meetei Mayek Extensions
+  U+AB00 -   U+AB2F  Ethiopic Extended-A
+  U+AB30 -   U+AB6F  Latin Extended-E
+  U+AB70 -   U+ABBF  Cherokee Supplement
+  U+ABC0 -   U+ABFF  Meetei Mayek
+  U+AC00 -   U+D7AF  Hangul Syllables
+  U+D7B0 -   U+D7FF  Hangul Jamo Extended-B
+  U+D800 -   U+DB7F  High Surrogates
+  U+DB80 -   U+DBFF  High Private Use Surrogates
+  U+DC00 -   U+DFFF  Low Surrogates
+  U+E000 -   U+F8FF  Private Use Area
+  U+F900 -   U+FAFF  CJK Compatibility Ideographs
+  U+FB00 -   U+FB4F  Alphabetic Presentation Forms
+  U+FB50 -   U+FDFF  Arabic Presentation Forms-A
+  U+FE00 -   U+FE0F  Variation Selectors
+  U+FE10 -   U+FE1F  Vertical Forms
+  U+FE20 -   U+FE2F  Combining Half Marks
+  U+FE30 -   U+FE4F  CJK Compatibility Forms
+  U+FE50 -   U+FE6F  Small Form Variants
+  U+FE70 -   U+FEFF  Arabic Presentation Forms-B
+  U+FF00 -   U+FFEF  Halfwidth and Fullwidth Forms
+  U+FFF0 -   U+FFFF  Specials
+ U+10000 -  U+1007F  Linear B Syllabary
+ U+10080 -  U+100FF  Linear B Ideograms
+ U+10100 -  U+1013F  Aegean Numbers
+ U+10140 -  U+1018F  Ancient Greek Numbers
+ U+10190 -  U+101CF  Ancient Symbols
+ U+101D0 -  U+101FF  Phaistos Disc
+ U+10280 -  U+1029F  Lycian
+ U+102A0 -  U+102DF  Carian
+ U+102E0 -  U+102FF  Coptic Epact Numbers
+ U+10300 -  U+1032F  Old Italic
+ U+10330 -  U+1034F  Gothic
+ U+10350 -  U+1037F  Old Permic
+ U+10380 -  U+1039F  Ugaritic
+ U+103A0 -  U+103DF  Old Persian
+ U+10400 -  U+1044F  Deseret
+ U+10450 -  U+1047F  Shavian
+ U+10480 -  U+104AF  Osmanya
+ U+104B0 -  U+104FF  Osage
+ U+10500 -  U+1052F  Elbasan
+ U+10530 -  U+1056F  Caucasian Albanian
+ U+10600 -  U+1077F  Linear A
+ U+10800 -  U+1083F  Cypriot Syllabary
+ U+10840 -  U+1085F  Imperial Aramaic
+ U+10860 -  U+1087F  Palmyrene
+ U+10880 -  U+108AF  Nabataean
+ U+108E0 -  U+108FF  Hatran
+ U+10900 -  U+1091F  Phoenician
+ U+10920 -  U+1093F  Lydian
+ U+10980 -  U+1099F  Meroitic Hieroglyphs
+ U+109A0 -  U+109FF  Meroitic Cursive
+ U+10A00 -  U+10A5F  Kharoshthi
+ U+10A60 -  U+10A7F  Old South Arabian
+ U+10A80 -  U+10A9F  Old North Arabian
+ U+10AC0 -  U+10AFF  Manichaean
+ U+10B00 -  U+10B3F  Avestan
+ U+10B40 -  U+10B5F  Inscriptional Parthian
+ U+10B60 -  U+10B7F  Inscriptional Pahlavi
+ U+10B80 -  U+10BAF  Psalter Pahlavi
+ U+10C00 -  U+10C4F  Old Turkic
+ U+10C80 -  U+10CFF  Old Hungarian
+ U+10D00 -  U+10D3F  Hanifi Rohingya
+ U+10E60 -  U+10E7F  Rumi Numeral Symbols
+ U+10E80 -  U+10EBF  Yezidi
+ U+10F00 -  U+10F2F  Old Sogdian
+ U+10F30 -  U+10F6F  Sogdian
+ U+10FB0 -  U+10FDF  Chorasmian
+ U+10FE0 -  U+10FFF  Elymaic
+ U+11000 -  U+1107F  Brahmi
+ U+11080 -  U+110CF  Kaithi
+ U+110D0 -  U+110FF  Sora Sompeng
+ U+11100 -  U+1114F  Chakma
+ U+11150 -  U+1117F  Mahajani
+ U+11180 -  U+111DF  Sharada
+ U+111E0 -  U+111FF  Sinhala Archaic Numbers
+ U+11200 -  U+1124F  Khojki
+ U+11280 -  U+112AF  Multani
+ U+112B0 -  U+112FF  Khudawadi
+ U+11300 -  U+1137F  Grantha
+ U+11400 -  U+1147F  Newa
+ U+11480 -  U+114DF  Tirhuta
+ U+11580 -  U+115FF  Siddham
+ U+11600 -  U+1165F  Modi
+ U+11660 -  U+1167F  Mongolian Supplement
+ U+11680 -  U+116CF  Takri
+ U+11700 -  U+1173F  Ahom
+ U+11800 -  U+1184F  Dogra
+ U+118A0 -  U+118FF  Warang Citi
+ U+11900 -  U+1195F  Dives Akuru
+ U+119A0 -  U+119FF  Nandinagari
+ U+11A00 -  U+11A4F  Zanabazar Square
+ U+11A50 -  U+11AAF  Soyombo
+ U+11AC0 -  U+11AFF  Pau Cin Hau
+ U+11C00 -  U+11C6F  Bhaiksuki
+ U+11C70 -  U+11CBF  Marchen
+ U+11D00 -  U+11D5F  Masaram Gondi
+ U+11D60 -  U+11DAF  Gunjala Gondi
+ U+11EE0 -  U+11EFF  Makasar
+ U+11FB0 -  U+11FBF  Lisu Supplement
+ U+11FC0 -  U+11FFF  Tamil Supplement
+ U+12000 -  U+123FF  Cuneiform
+ U+12400 -  U+1247F  Cuneiform Numbers and Punctuation
+ U+12480 -  U+1254F  Early Dynastic Cuneiform
+ U+13000 -  U+1342F  Egyptian Hieroglyphs
+ U+13430 -  U+1343F  Egyptian Hieroglyph Format Controls
+ U+14400 -  U+1467F  Anatolian Hieroglyphs
+ U+16800 -  U+16A3F  Bamum Supplement
+ U+16A40 -  U+16A6F  Mro
+ U+16AD0 -  U+16AFF  Bassa Vah
+ U+16B00 -  U+16B8F  Pahawh Hmong
+ U+16E40 -  U+16E9F  Medefaidrin
+ U+16F00 -  U+16F9F  Miao
+ U+16FE0 -  U+16FFF  Ideographic Symbols and Punctuation
+ U+17000 -  U+187FF  Tangut
+ U+18800 -  U+18AFF  Tangut Components
+ U+18B00 -  U+18CFF  Khitan Small Script
+ U+18D00 -  U+18D8F  Tangut Supplement
+ U+1B000 -  U+1B0FF  Kana Supplement
+ U+1B100 -  U+1B12F  Kana Extended-A
+ U+1B130 -  U+1B16F  Small Kana Extension
+ U+1B170 -  U+1B2FF  Nushu
+ U+1BC00 -  U+1BC9F  Duployan
+ U+1BCA0 -  U+1BCAF  Shorthand Format Controls
+ U+1D000 -  U+1D0FF  Byzantine Musical Symbols
+ U+1D100 -  U+1D1FF  Musical Symbols
+ U+1D200 -  U+1D24F  Ancient Greek Musical Notation
+ U+1D2E0 -  U+1D2FF  Mayan Numerals
+ U+1D300 -  U+1D35F  Tai Xuan Jing Symbols
+ U+1D360 -  U+1D37F  Counting Rod Numerals
+ U+1D400 -  U+1D7FF  Mathematical Alphanumeric Symbols
+ U+1D800 -  U+1DAAF  Sutton SignWriting
+ U+1E000 -  U+1E02F  Glagolitic Supplement
+ U+1E100 -  U+1E14F  Nyiakeng Puachue Hmong
+ U+1E2C0 -  U+1E2FF  Wancho
+ U+1E800 -  U+1E8DF  Mende Kikakui
+ U+1E900 -  U+1E95F  Adlam
+ U+1EC70 -  U+1ECBF  Indic Siyaq Numbers
+ U+1ED00 -  U+1ED4F  Ottoman Siyaq Numbers
+ U+1EE00 -  U+1EEFF  Arabic Mathematical Alphabetic Symbols
+ U+1F000 -  U+1F02F  Mahjong Tiles
+ U+1F030 -  U+1F09F  Domino Tiles
+ U+1F0A0 -  U+1F0FF  Playing Cards
+ U+1F100 -  U+1F1FF  Enclosed Alphanumeric Supplement
+ U+1F200 -  U+1F2FF  Enclosed Ideographic Supplement
+ U+1F300 -  U+1F5FF  Miscellaneous Symbols and Pictographs
+ U+1F600 -  U+1F64F  Emoticons
+ U+1F650 -  U+1F67F  Ornamental Dingbats
+ U+1F680 -  U+1F6FF  Transport and Map Symbols
+ U+1F700 -  U+1F77F  Alchemical Symbols
+ U+1F780 -  U+1F7FF  Geometric Shapes Extended
+ U+1F800 -  U+1F8FF  Supplemental Arrows-C
+ U+1F900 -  U+1F9FF  Supplemental Symbols and Pictographs
+ U+1FA00 -  U+1FA6F  Chess Symbols
+ U+1FA70 -  U+1FAFF  Symbols and Pictographs Extended-A
+ U+1FB00 -  U+1FBFF  Symbols for Legacy Computing
+ U+20000 -  U+2A6DF  CJK Unified Ideographs Extension B
+ U+2A700 -  U+2B73F  CJK Unified Ideographs Extension C
+ U+2B740 -  U+2B81F  CJK Unified Ideographs Extension D
+ U+2B820 -  U+2CEAF  CJK Unified Ideographs Extension E
+ U+2CEB0 -  U+2EBEF  CJK Unified Ideographs Extension F
+ U+2F800 -  U+2FA1F  CJK Compatibility Ideographs Supplement
+ U+30000 -  U+3134F  CJK Unified Ideographs Extension G
+ U+E0000 -  U+E007F  Tags
+ U+E0100 -  U+E01EF  Variation Selectors Supplement
+ U+F0000 -  U+FFFFF  Supplementary Private Use Area-A
+U+100000 - U+10FFFF  Supplementary Private Use Area-B
+   Start        End  Unicode Block
+  U+0E00 -   U+0E7F  Thai
+   Octal  Decimal      Hex        HTML    Character   Unicode
+   07000     3584    0xE00     &#3584;    "฀"         Thai U+00E00
+   07001     3585    0xE01     &#3585;    "ก"         THAI CHARACTER KO KAI
+   07002     3586    0xE02     &#3586;    "ข"         THAI CHARACTER KHO KHAI
+   07003     3587    0xE03     &#3587;    "ฃ"         THAI CHARACTER KHO KHUAT
+   07004     3588    0xE04     &#3588;    "ค"         THAI CHARACTER KHO KHWAI
+   07005     3589    0xE05     &#3589;    "ฅ"         THAI CHARACTER KHO KHON
+   07006     3590    0xE06     &#3590;    "ฆ"         THAI CHARACTER KHO RAKHANG
+   07007     3591    0xE07     &#3591;    "ง"         THAI CHARACTER NGO NGU
+   07010     3592    0xE08     &#3592;    "จ"         THAI CHARACTER CHO CHAN
+   07011     3593    0xE09     &#3593;    "ฉ"         THAI CHARACTER CHO CHING
+   07012     3594    0xE0A     &#3594;    "ช"         THAI CHARACTER CHO CHANG
+   07013     3595    0xE0B     &#3595;    "ซ"         THAI CHARACTER SO SO
+   07014     3596    0xE0C     &#3596;    "ฌ"         THAI CHARACTER CHO CHOE
+   07015     3597    0xE0D     &#3597;    "ญ"         THAI CHARACTER YO YING
+   07016     3598    0xE0E     &#3598;    "ฎ"         THAI CHARACTER DO CHADA
+   07017     3599    0xE0F     &#3599;    "ฏ"         THAI CHARACTER TO PATAK
+   07020     3600    0xE10     &#3600;    "ฐ"         THAI CHARACTER THO THAN
+   07021     3601    0xE11     &#3601;    "ฑ"         THAI CHARACTER THO NANGMONTHO
+   07022     3602    0xE12     &#3602;    "ฒ"         THAI CHARACTER THO PHUTHAO
+   07023     3603    0xE13     &#3603;    "ณ"         THAI CHARACTER NO NEN
+   07024     3604    0xE14     &#3604;    "ด"         THAI CHARACTER DO DEK
+   07025     3605    0xE15     &#3605;    "ต"         THAI CHARACTER TO TAO
+   07026     3606    0xE16     &#3606;    "ถ"         THAI CHARACTER THO THUNG
+   07027     3607    0xE17     &#3607;    "ท"         THAI CHARACTER THO THAHAN
+   07030     3608    0xE18     &#3608;    "ธ"         THAI CHARACTER THO THONG
+   07031     3609    0xE19     &#3609;    "น"         THAI CHARACTER NO NU
+   07032     3610    0xE1A     &#3610;    "บ"         THAI CHARACTER BO BAIMAI
+   07033     3611    0xE1B     &#3611;    "ป"         THAI CHARACTER PO PLA
+   07034     3612    0xE1C     &#3612;    "ผ"         THAI CHARACTER PHO PHUNG
+   07035     3613    0xE1D     &#3613;    "ฝ"         THAI CHARACTER FO FA
+   07036     3614    0xE1E     &#3614;    "พ"         THAI CHARACTER PHO PHAN
+   07037     3615    0xE1F     &#3615;    "ฟ"         THAI CHARACTER FO FAN
+   07040     3616    0xE20     &#3616;    "ภ"         THAI CHARACTER PHO SAMPHAO
+   07041     3617    0xE21     &#3617;    "ม"         THAI CHARACTER MO MA
+   07042     3618    0xE22     &#3618;    "ย"         THAI CHARACTER YO YAK
+   07043     3619    0xE23     &#3619;    "ร"         THAI CHARACTER RO RUA
+   07044     3620    0xE24     &#3620;    "ฤ"         THAI CHARACTER RU
+   07045     3621    0xE25     &#3621;    "ล"         THAI CHARACTER LO LING
+   07046     3622    0xE26     &#3622;    "ฦ"         THAI CHARACTER LU
+   07047     3623    0xE27     &#3623;    "ว"         THAI CHARACTER WO WAEN
+   07050     3624    0xE28     &#3624;    "ศ"         THAI CHARACTER SO SALA
+   07051     3625    0xE29     &#3625;    "ษ"         THAI CHARACTER SO RUSI
+   07052     3626    0xE2A     &#3626;    "ส"         THAI CHARACTER SO SUA
+   07053     3627    0xE2B     &#3627;    "ห"         THAI CHARACTER HO HIP
+   07054     3628    0xE2C     &#3628;    "ฬ"         THAI CHARACTER LO CHULA
+   07055     3629    0xE2D     &#3629;    "อ"         THAI CHARACTER O ANG
+   07056     3630    0xE2E     &#3630;    "ฮ"         THAI CHARACTER HO NOKHUK
+   07057     3631    0xE2F     &#3631;    "ฯ"         THAI CHARACTER PAIYANNOI
+   07060     3632    0xE30     &#3632;    "ะ"         THAI CHARACTER SARA A
+   07061     3633    0xE31     &#3633;    "ั"         THAI CHARACTER MAI HAN-AKAT
+   07062     3634    0xE32     &#3634;    "า"         THAI CHARACTER SARA AA
+   07063     3635    0xE33     &#3635;    "ำ"         THAI CHARACTER SARA AM
+   07064     3636    0xE34     &#3636;    "ิ"         THAI CHARACTER SARA I
+   07065     3637    0xE35     &#3637;    "ี"         THAI CHARACTER SARA II
+   07066     3638    0xE36     &#3638;    "ึ"         THAI CHARACTER SARA UE
+   07067     3639    0xE37     &#3639;    "ื"         THAI CHARACTER SARA UEE
+   07070     3640    0xE38     &#3640;    "ุ"         THAI CHARACTER SARA U
+   07071     3641    0xE39     &#3641;    "ู"         THAI CHARACTER SARA UU
+   07072     3642    0xE3A     &#3642;    "ฺ"         THAI CHARACTER PHINTHU
+   07073     3643    0xE3B     &#3643;    "฻"         Thai U+00E3B
+   07074     3644    0xE3C     &#3644;    "฼"         Thai U+00E3C
+   07075     3645    0xE3D     &#3645;    "฽"         Thai U+00E3D
+   07076     3646    0xE3E     &#3646;    "฾"         Thai U+00E3E
+   07077     3647    0xE3F     &#3647;    "฿"         THAI CURRENCY SYMBOL BAHT
+   07100     3648    0xE40     &#3648;    "เ"         THAI CHARACTER SARA E
+   07101     3649    0xE41     &#3649;    "แ"         THAI CHARACTER SARA AE
+   07102     3650    0xE42     &#3650;    "โ"         THAI CHARACTER SARA O
+   07103     3651    0xE43     &#3651;    "ใ"         THAI CHARACTER SARA AI MAIMUAN
+   07104     3652    0xE44     &#3652;    "ไ"         THAI CHARACTER SARA AI MAIMALAI
+   07105     3653    0xE45     &#3653;    "ๅ"         THAI CHARACTER LAKKHANGYAO
+   07106     3654    0xE46     &#3654;    "ๆ"         THAI CHARACTER MAIYAMOK
+   07107     3655    0xE47     &#3655;    "็"         THAI CHARACTER MAITAIKHU
+   07110     3656    0xE48     &#3656;    "่"         THAI CHARACTER MAI EK
+   07111     3657    0xE49     &#3657;    "้"         THAI CHARACTER MAI THO
+   07112     3658    0xE4A     &#3658;    "๊"         THAI CHARACTER MAI TRI
+   07113     3659    0xE4B     &#3659;    "๋"         THAI CHARACTER MAI CHATTAWA
+   07114     3660    0xE4C     &#3660;    "์"         THAI CHARACTER THANTHAKHAT
+   07115     3661    0xE4D     &#3661;    "ํ"         THAI CHARACTER NIKHAHIT
+   07116     3662    0xE4E     &#3662;    "๎"         THAI CHARACTER YAMAKKAN
+   07117     3663    0xE4F     &#3663;    "๏"         THAI CHARACTER FONGMAN
+   07120     3664    0xE50     &#3664;    "๐"         THAI DIGIT ZERO
+   07121     3665    0xE51     &#3665;    "๑"         THAI DIGIT ONE
+   07122     3666    0xE52     &#3666;    "๒"         THAI DIGIT TWO
+   07123     3667    0xE53     &#3667;    "๓"         THAI DIGIT THREE
+   07124     3668    0xE54     &#3668;    "๔"         THAI DIGIT FOUR
+   07125     3669    0xE55     &#3669;    "๕"         THAI DIGIT FIVE
+   07126     3670    0xE56     &#3670;    "๖"         THAI DIGIT SIX
+   07127     3671    0xE57     &#3671;    "๗"         THAI DIGIT SEVEN
+   07130     3672    0xE58     &#3672;    "๘"         THAI DIGIT EIGHT
+   07131     3673    0xE59     &#3673;    "๙"         THAI DIGIT NINE
+   07132     3674    0xE5A     &#3674;    "๚"         THAI CHARACTER ANGKHANKHU
+   07133     3675    0xE5B     &#3675;    "๛"         THAI CHARACTER KHOMUT
+   07134     3676    0xE5C     &#3676;    "๜"         Thai U+00E5C
+   07135     3677    0xE5D     &#3677;    "๝"         Thai U+00E5D
+   07136     3678    0xE5E     &#3678;    "๞"         Thai U+00E5E
+   07137     3679    0xE5F     &#3679;    "๟"         Thai U+00E5F
+   07140     3680    0xE60     &#3680;    "๠"         Thai U+00E60
+   07141     3681    0xE61     &#3681;    "๡"         Thai U+00E61
+   07142     3682    0xE62     &#3682;    "๢"         Thai U+00E62
+   07143     3683    0xE63     &#3683;    "๣"         Thai U+00E63
+   07144     3684    0xE64     &#3684;    "๤"         Thai U+00E64
+   07145     3685    0xE65     &#3685;    "๥"         Thai U+00E65
+   07146     3686    0xE66     &#3686;    "๦"         Thai U+00E66
+   07147     3687    0xE67     &#3687;    "๧"         Thai U+00E67
+   07150     3688    0xE68     &#3688;    "๨"         Thai U+00E68
+   07151     3689    0xE69     &#3689;    "๩"         Thai U+00E69
+   07152     3690    0xE6A     &#3690;    "๪"         Thai U+00E6A
+   07153     3691    0xE6B     &#3691;    "๫"         Thai U+00E6B
+   07154     3692    0xE6C     &#3692;    "๬"         Thai U+00E6C
+   07155     3693    0xE6D     &#3693;    "๭"         Thai U+00E6D
+   07156     3694    0xE6E     &#3694;    "๮"         Thai U+00E6E
+   07157     3695    0xE6F     &#3695;    "๯"         Thai U+00E6F
+   07160     3696    0xE70     &#3696;    "๰"         Thai U+00E70
+   07161     3697    0xE71     &#3697;    "๱"         Thai U+00E71
+   07162     3698    0xE72     &#3698;    "๲"         Thai U+00E72
+   07163     3699    0xE73     &#3699;    "๳"         Thai U+00E73
+   07164     3700    0xE74     &#3700;    "๴"         Thai U+00E74
+   07165     3701    0xE75     &#3701;    "๵"         Thai U+00E75
+   07166     3702    0xE76     &#3702;    "๶"         Thai U+00E76
+   07167     3703    0xE77     &#3703;    "๷"         Thai U+00E77
+   07170     3704    0xE78     &#3704;    "๸"         Thai U+00E78
+   07171     3705    0xE79     &#3705;    "๹"         Thai U+00E79
+   07172     3706    0xE7A     &#3706;    "๺"         Thai U+00E7A
+   07173     3707    0xE7B     &#3707;    "๻"         Thai U+00E7B
+   07174     3708    0xE7C     &#3708;    "๼"         Thai U+00E7C
+   07175     3709    0xE7D     &#3709;    "๽"         Thai U+00E7D
+   07176     3710    0xE7E     &#3710;    "๾"         Thai U+00E7E
+   07177     3711    0xE7F     &#3711;    "๿"         Thai U+00E7F
+   Octal  Decimal      Hex        HTML    Character   Unicode
+   02037     1055    0x41F       &Pcy;    "П"         CYRILLIC CAPITAL LETTER PE
+   02100     1088    0x440       &rcy;    "р"         CYRILLIC SMALL LETTER ER
+   02060     1072    0x430       &acy;    "а"         CYRILLIC SMALL LETTER A
+   02062     1074    0x432       &vcy;    "в"         CYRILLIC SMALL LETTER VE
+   02064     1076    0x434       &dcy;    "д"         CYRILLIC SMALL LETTER DE
+   02060     1072    0x430       &acy;    "а"         CYRILLIC SMALL LETTER A
+   Octal  Decimal      Hex        HTML    Character   Unicode
+   02030     1048    0x418     &#1048;    "И"         CYRILLIC CAPITAL LETTER I
+   02067     1079    0x437     &#1079;    "з"         CYRILLIC SMALL LETTER ZE
+   02062     1074    0x432     &#1074;    "в"         CYRILLIC SMALL LETTER VE
+   02065     1077    0x435     &#1077;    "е"         CYRILLIC SMALL LETTER IE
+   02101     1089    0x441     &#1089;    "с"         CYRILLIC SMALL LETTER ES
+   02102     1090    0x442     &#1090;    "т"         CYRILLIC SMALL LETTER TE
+   02070     1080    0x438     &#1080;    "и"         CYRILLIC SMALL LETTER I
+   02117     1103    0x44F     &#1103;    "я"         CYRILLIC SMALL LETTER YA
+   Octal  Decimal      Hex        HTML    Character   Unicode
+   03047     1575    0x627     &#1575;    "ا"         ARABIC LETTER ALEF
+   03104     1604    0x644     &#1604;    "ل"         ARABIC LETTER LAM
+   03071     1593    0x639     &#1593;    "ع"         ARABIC LETTER AIN
+   03061     1585    0x631     &#1585;    "ر"         ARABIC LETTER REH
+   03050     1576    0x628     &#1576;    "ب"         ARABIC LETTER BEH
+   03112     1610    0x64A     &#1610;    "ي"         ARABIC LETTER YEH
+   03051     1577    0x629     &#1577;    "ة"         ARABIC LETTER TEH MARBUTA
+   Octal  Decimal      Hex        HTML    Character   Unicode
+  070256    28846   0x70AE    &#28846;    "炮"         CJK UNIFIED IDEOGRAPH-#70AE, IRGKangXi=0668.250, RSKangXi=86.5, Def{large gun, cannon; artillery}
+                                &nbump; =
+   Octal  Decimal      Hex        HTML    Character   Unicode
+  021116     8782   0x224E &bump;,&Bumpeq;,&HumpDownHump;    "≎"         GEOMETRICALLY EQUIVALENT TO
+   01470      824    0x338      &#824;    "̸"         COMBINING LONG SOLIDUS OVERLAY
+                                &nbumpe; =
+   Octal  Decimal      Hex        HTML    Character   Unicode
+  021117     8783   0x224F &bumpe;,&bumpeq;,&HumpEqual;    "≏"         DIFFERENCE BETWEEN
+   01470      824    0x338      &#824;    "̸"         COMBINING LONG SOLIDUS OVERLAY
+   Octal  Decimal      Hex        HTML       UTF-8      Character   Unicode
+      00        0      0x0        &#0;         0x0      "\x{0}"     <control> NULL, NUL, Ctrl-@
+    0113       75     0x4B       &#75;        0x4B      "K"         LATIN CAPITAL LETTER K
+    0327      215     0xD7     &times;      0xC397      "×"         MULTIPLICATION SIGN
+  023042     9762   0x2622     &#9762;    0xE298A2      "☢"         RADIOACTIVE SIGN
+ 0372114   128076  0x1F44C   &#128076;  0xF09F918C      "👌"         OK HAND SIGN
