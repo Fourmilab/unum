@@ -262,3 +262,24 @@ Rebuilt distribution with:
     make dist
 
 Version 3.4-14.0.0.
+
+Added CONTRIBUTING.md, LICENSE.md, and README.md to support GitHub.
+
+Logged on to github.com.
+
+Created a new repository:
+    unum
+with access URLs:
+    HTTPS: https://github.com/Fourmilab/unum.git
+    SSH:   git@github.com:Fourmilab/unum.git
+
+Linked the local repository to the GitHub archive:
+    git remote add origin git@github.com:Fourmilab/unum.git
+
+Committed the *.md files in the repository root and the
+marketplace/images files to which they link.
+
+Confirmed that my local "git sync" command works with the remote
+repository.
+
+The documents in the repository root now work properly.
