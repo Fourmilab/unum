@@ -19,22 +19,22 @@
         background-color:  rgb(30%, 30%, 100%);
         color: rgb(100%, 100%, 100%);
     }
-    
+
     a:active {
         color: rgb(100%, 0%, 0%);
         background-color:  rgb(30%, 30%, 100%);
     }
-    
+
     /* Links without decoration.  These are usually
        wrapped around buttons and images which are
        self-evidently links. */
-    
+
     a.i:link, a.i:visited, a.i:hover {
-		background-color:  inherit;
-		color: inherit;
-		ext-decoration: none;
-    }    
-    
+        background-color:  inherit;
+        color: inherit;
+        ext-decoration: none;
+    }
+
     blockquote.warning {
         margin-left: 4em;
         margin-right: 4em;
@@ -98,10 +98,10 @@
     img.b0 {
         border: 0px;
     }
-    
+
     p {
-		text-align: justify;
-	}
+        text-align: justify;
+    }
 
     p.cn {
         text-align: center;
@@ -256,7 +256,7 @@ character &amp;nGtv; (not much greater than)?</dt>
   U+0180 -   U+024F  Latin Extended-B
   U+0250 -   U+02AF  IPA Extensions
           <em>Output elided.</em>
- U+2F800 -  U+2FA1F  CJK Compatibility Ideographs Supplement
+ U+30000 -  U+3134F  CJK Unified Ideographs Extension G
  U+E0000 -  U+E007F  Tags
  U+E0100 -  U+E01EF  Variation Selectors Supplement
  U+F0000 -  U+FFFFF  Supplementary Private Use Area-A
@@ -300,11 +300,22 @@ U+100000 - U+10FFFF  Supplementary Private Use Area-B</dd>
                   <em>&ldquo;al-'Arabiyah&rdquo;&mdash;Arabia</em></dd>
 
 <dt>What is the meaning of the Chinese symbol <span style="font-weight: normal;">&#28846;</span>?</dt>
-	<dd>$ unum &#28846;
+    <dd>$ unum &#28846;
    Octal  Decimal      Hex        HTML    Character   Unicode
   070256    28846   0x70AE    &amp;#28846;    "&#28846;"         CJK UNIFIED IDEOGRAPH-#70AE,
                                                       IRGKangXi=0668.250, RSKangXi=86.5,
                                                       Def{large gun, cannon; artillery}</dd>
+
+<dt>What character does the UTF-8 sequence 0xE298A2 represent?</dt>
+    <dd>$ unum utf8=0xE298A2
+   Octal  Decimal      Hex        HTML    Character   Unicode
+  023042     9762   0x2622     &amp;#9762;    "&#9762;"         RADIOACTIVE SIGN</dd>
+
+<dt>What is the UTF-8 encoding of the mathematical summation sign?</dt>
+    <dd>$ unum --utf8 h=sum
+   Octal  Decimal      Hex        HTML       UTF-8      Character   Unicode
+  021021     8721   0x2211 &amp;Sum;,&amp;sum;    0xE28891      "&#8721;"         N-ARY SUMMATION</dd>
+
 </dl>
 
 <h2>Downloading and Installation</h2>
@@ -317,7 +328,7 @@ which may be downloaded from the following links:
 <blockquote>
 <div>
     <b><tt><a href="download/unum_comp.tar.gz">unum_comp.tar.gz</a></tt></b>:
-        Gzipped TAR archive (737 Kb) [Compressed version]<br />
+        Gzipped TAR archive (761 Kb) [Compressed version]<br />
     <b><tt><a href="download/unum.tar.gz">unum.tar.gz</a></tt></b>:
         Gzipped TAR archive (1.4 Mb) [Uncompressed version]
 </div>
@@ -326,7 +337,7 @@ which may be downloaded from the following links:
 <p>
 The compressed and uncompressed versions of the program work
 identically.  The uncompressed version contains the entire
-Unicode character database in text form, and is almost 8 megabytes
+Unicode character database in text form, and is more than 8 megabytes
 when extracted from the archive.  The compressed version uses the
 same database, but stored compressed with the
 <a href="https://en.wikipedia.org/wiki/Bzip2" rel="Target:Unum_Aux">bzip2</a>
@@ -341,7 +352,7 @@ or a version of Perl which permits binary data embedded in programs.
 
 <p>
 Each archive contains a single file, <tt>unum.pl</tt>, which is
-the self-contained Perl source code for <strong>unum</strong>. 
+the self-contained Perl source code for <strong>unum</strong>.
 You may wish to rename it <tt>unum</tt> and install it in a
 directory on your <tt>PATH</tt>, but it may be run from any
 location.  The program uses no modules from the Perl library:
@@ -475,6 +486,37 @@ a regular expression.  For example, <code>n=telephone</code> finds the twelve
 Unicode characters for telephone symbols.
 </dd>
 
+<dt>utf8=<em>number</em><br />
+</dt>
+<dd>
+Treating the number (which may be specified as either decimal, octal,
+hexadecimal, or binary, as for numeric arguments) as a stream of from
+one to four bytes, decode the bytes as the UTF-8 representation of a
+character. For example, <code>utf8=0xE298A2</code>
+decodes to Unicode code point 0x2622, the radioactive sign.
+</dd>
+
+</dl>
+
+<h3>Options</h3>
+
+<dl>
+
+<dt>--nent</dt>
+<dd>
+When showing an HTML character reference, always show its numerical
+form (for example, &amp;#8212;), even if it has a named character
+reference.
+</dd>
+
+<dt>--utf8</dt>
+<dd>
+Show UTF-8 encoding of characters as a byte sequence in a hexadecimal
+number. This is the same format as is accepted by the
+<code>utf8=</code> argument. The option applies to the display of all
+arguments which follow on the command line.
+</dd>
+
 </dl>
 
 <h3>Output</h3>
@@ -509,7 +551,7 @@ Unicode blocks are listed as follows:
 <hr />
 <h2>Version</h2>
 
-<p>This is <strong>unum</strong> version 2.2, released on September 19th, 2017.</p>
+<p>This is <b>unum</b> version 3.4-14.0.0, released on September 20th, 2021.</p>
 
 <hr />
 <h2>Bugs</h2>
@@ -541,15 +583,15 @@ uncompressed version.</p>
 <p>This is free software; you can redistribute it and/or modify it under
 the same terms as Perl itself.</p>
 
-<p>The Unicode character tables are based upon the Unicode 10.0.0 
-(2017) standard.</p>
+<p>The Unicode character tables are based upon the Unicode 14.0.0
+(September 2021) standard.</p>
 
-<p>The control characters in this <b>unum</b> version have been 
-annotated with their Unicode abbreviations, names, and for U+0000 to 
+<p>The control characters in this <b>unum</b> version have been
+annotated with their Unicode abbreviations, names, and for U+0000 to
 U+001F, the Ctrl-key code which generates them.</p>
 
-<p>The HTML named character references are from the World Wide Web 
-Consortium HTML standard. Some browsers may not support all of these 
+<p>The HTML named character references are from the World Wide Web
+Consortium HTML standard. Some browsers may not support all of these
 references.</p>
 
 </div>
@@ -577,7 +619,12 @@ references.</p>
 <address>
 by <a href="/">John Walker</a><br />
 February, 2006<br />
-Updated: September, 2017
+Updated: September, 2017<br />
+Updated: July, 2018<br />
+Updated: January, 2020<br />
+Updated: May, 2020<br />
+Updated: May, 2021<br />
+Updated: September, 2021
 </address>
 <p class="cn">
 <em>This document is in the public domain.</em>

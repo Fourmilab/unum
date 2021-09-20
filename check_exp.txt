@@ -84,6 +84,7 @@
   U+0800 -   U+083F  Samaritan
   U+0840 -   U+085F  Mandaic
   U+0860 -   U+086F  Syriac Supplement
+  U+0870 -   U+089F  Arabic Extended-B
   U+08A0 -   U+08FF  Arabic Extended-A
   U+0900 -   U+097F  Devanagari
   U+0980 -   U+09FF  Bengali
@@ -247,7 +248,9 @@
  U+104B0 -  U+104FF  Osage
  U+10500 -  U+1052F  Elbasan
  U+10530 -  U+1056F  Caucasian Albanian
+ U+10570 -  U+105BF  Vithkuqi
  U+10600 -  U+1077F  Linear A
+ U+10780 -  U+107BF  Latin Extended-F
  U+10800 -  U+1083F  Cypriot Syllabary
  U+10840 -  U+1085F  Imperial Aramaic
  U+10860 -  U+1087F  Palmyrene
@@ -272,6 +275,7 @@
  U+10E80 -  U+10EBF  Yezidi
  U+10F00 -  U+10F2F  Old Sogdian
  U+10F30 -  U+10F6F  Sogdian
+ U+10F70 -  U+10FAF  Old Uyghur
  U+10FB0 -  U+10FDF  Chorasmian
  U+10FE0 -  U+10FFF  Elymaic
  U+11000 -  U+1107F  Brahmi
@@ -291,13 +295,14 @@
  U+11600 -  U+1165F  Modi
  U+11660 -  U+1167F  Mongolian Supplement
  U+11680 -  U+116CF  Takri
- U+11700 -  U+1173F  Ahom
+ U+11700 -  U+1174F  Ahom
  U+11800 -  U+1184F  Dogra
  U+118A0 -  U+118FF  Warang Citi
  U+11900 -  U+1195F  Dives Akuru
  U+119A0 -  U+119FF  Nandinagari
  U+11A00 -  U+11A4F  Zanabazar Square
  U+11A50 -  U+11AAF  Soyombo
+ U+11AB0 -  U+11ABF  Unified Canadian Aboriginal Syllabics Extended-A
  U+11AC0 -  U+11AFF  Pau Cin Hau
  U+11C00 -  U+11C6F  Bhaiksuki
  U+11C70 -  U+11CBF  Marchen
@@ -309,11 +314,13 @@
  U+12000 -  U+123FF  Cuneiform
  U+12400 -  U+1247F  Cuneiform Numbers and Punctuation
  U+12480 -  U+1254F  Early Dynastic Cuneiform
+ U+12F90 -  U+12FFF  Cypro-Minoan
  U+13000 -  U+1342F  Egyptian Hieroglyphs
  U+13430 -  U+1343F  Egyptian Hieroglyph Format Controls
  U+14400 -  U+1467F  Anatolian Hieroglyphs
  U+16800 -  U+16A3F  Bamum Supplement
  U+16A40 -  U+16A6F  Mro
+ U+16A70 -  U+16ACF  Tangsa
  U+16AD0 -  U+16AFF  Bassa Vah
  U+16B00 -  U+16B8F  Pahawh Hmong
  U+16E40 -  U+16E9F  Medefaidrin
@@ -322,13 +329,15 @@
  U+17000 -  U+187FF  Tangut
  U+18800 -  U+18AFF  Tangut Components
  U+18B00 -  U+18CFF  Khitan Small Script
- U+18D00 -  U+18D8F  Tangut Supplement
+ U+18D00 -  U+18D7F  Tangut Supplement
+ U+1AFF0 -  U+1AFFF  Kana Extended-B
  U+1B000 -  U+1B0FF  Kana Supplement
  U+1B100 -  U+1B12F  Kana Extended-A
  U+1B130 -  U+1B16F  Small Kana Extension
  U+1B170 -  U+1B2FF  Nushu
  U+1BC00 -  U+1BC9F  Duployan
  U+1BCA0 -  U+1BCAF  Shorthand Format Controls
+ U+1CF00 -  U+1CFCF  Znamenny Musical Notation
  U+1D000 -  U+1D0FF  Byzantine Musical Symbols
  U+1D100 -  U+1D1FF  Musical Symbols
  U+1D200 -  U+1D24F  Ancient Greek Musical Notation
@@ -337,9 +346,12 @@
  U+1D360 -  U+1D37F  Counting Rod Numerals
  U+1D400 -  U+1D7FF  Mathematical Alphanumeric Symbols
  U+1D800 -  U+1DAAF  Sutton SignWriting
+ U+1DF00 -  U+1DFFF  Latin Extended-G
  U+1E000 -  U+1E02F  Glagolitic Supplement
  U+1E100 -  U+1E14F  Nyiakeng Puachue Hmong
+ U+1E290 -  U+1E2BF  Toto
  U+1E2C0 -  U+1E2FF  Wancho
+ U+1E7E0 -  U+1E7FF  Ethiopic Extended-B
  U+1E800 -  U+1E8DF  Mende Kikakui
  U+1E900 -  U+1E95F  Adlam
  U+1EC70 -  U+1ECBF  Indic Siyaq Numbers
@@ -629,6 +641,7 @@ U+100000 - U+10FFFF  Supplementary Private Use Area-B
   U+0800 -   U+083F  Samaritan
   U+0840 -   U+085F  Mandaic
   U+0860 -   U+086F  Syriac Supplement
+  U+0870 -   U+089F  Arabic Extended-B
   U+08A0 -   U+08FF  Arabic Extended-A
   U+0900 -   U+097F  Devanagari
   U+0980 -   U+09FF  Bengali
@@ -792,7 +805,9 @@ U+100000 - U+10FFFF  Supplementary Private Use Area-B
  U+104B0 -  U+104FF  Osage
  U+10500 -  U+1052F  Elbasan
  U+10530 -  U+1056F  Caucasian Albanian
+ U+10570 -  U+105BF  Vithkuqi
  U+10600 -  U+1077F  Linear A
+ U+10780 -  U+107BF  Latin Extended-F
  U+10800 -  U+1083F  Cypriot Syllabary
  U+10840 -  U+1085F  Imperial Aramaic
  U+10860 -  U+1087F  Palmyrene
@@ -817,6 +832,7 @@ U+100000 - U+10FFFF  Supplementary Private Use Area-B
  U+10E80 -  U+10EBF  Yezidi
  U+10F00 -  U+10F2F  Old Sogdian
  U+10F30 -  U+10F6F  Sogdian
+ U+10F70 -  U+10FAF  Old Uyghur
  U+10FB0 -  U+10FDF  Chorasmian
  U+10FE0 -  U+10FFF  Elymaic
  U+11000 -  U+1107F  Brahmi
@@ -836,13 +852,14 @@ U+100000 - U+10FFFF  Supplementary Private Use Area-B
  U+11600 -  U+1165F  Modi
  U+11660 -  U+1167F  Mongolian Supplement
  U+11680 -  U+116CF  Takri
- U+11700 -  U+1173F  Ahom
+ U+11700 -  U+1174F  Ahom
  U+11800 -  U+1184F  Dogra
  U+118A0 -  U+118FF  Warang Citi
  U+11900 -  U+1195F  Dives Akuru
  U+119A0 -  U+119FF  Nandinagari
  U+11A00 -  U+11A4F  Zanabazar Square
  U+11A50 -  U+11AAF  Soyombo
+ U+11AB0 -  U+11ABF  Unified Canadian Aboriginal Syllabics Extended-A
  U+11AC0 -  U+11AFF  Pau Cin Hau
  U+11C00 -  U+11C6F  Bhaiksuki
  U+11C70 -  U+11CBF  Marchen
@@ -854,11 +871,13 @@ U+100000 - U+10FFFF  Supplementary Private Use Area-B
  U+12000 -  U+123FF  Cuneiform
  U+12400 -  U+1247F  Cuneiform Numbers and Punctuation
  U+12480 -  U+1254F  Early Dynastic Cuneiform
+ U+12F90 -  U+12FFF  Cypro-Minoan
  U+13000 -  U+1342F  Egyptian Hieroglyphs
  U+13430 -  U+1343F  Egyptian Hieroglyph Format Controls
  U+14400 -  U+1467F  Anatolian Hieroglyphs
  U+16800 -  U+16A3F  Bamum Supplement
  U+16A40 -  U+16A6F  Mro
+ U+16A70 -  U+16ACF  Tangsa
  U+16AD0 -  U+16AFF  Bassa Vah
  U+16B00 -  U+16B8F  Pahawh Hmong
  U+16E40 -  U+16E9F  Medefaidrin
@@ -867,13 +886,15 @@ U+100000 - U+10FFFF  Supplementary Private Use Area-B
  U+17000 -  U+187FF  Tangut
  U+18800 -  U+18AFF  Tangut Components
  U+18B00 -  U+18CFF  Khitan Small Script
- U+18D00 -  U+18D8F  Tangut Supplement
+ U+18D00 -  U+18D7F  Tangut Supplement
+ U+1AFF0 -  U+1AFFF  Kana Extended-B
  U+1B000 -  U+1B0FF  Kana Supplement
  U+1B100 -  U+1B12F  Kana Extended-A
  U+1B130 -  U+1B16F  Small Kana Extension
  U+1B170 -  U+1B2FF  Nushu
  U+1BC00 -  U+1BC9F  Duployan
  U+1BCA0 -  U+1BCAF  Shorthand Format Controls
+ U+1CF00 -  U+1CFCF  Znamenny Musical Notation
  U+1D000 -  U+1D0FF  Byzantine Musical Symbols
  U+1D100 -  U+1D1FF  Musical Symbols
  U+1D200 -  U+1D24F  Ancient Greek Musical Notation
@@ -882,9 +903,12 @@ U+100000 - U+10FFFF  Supplementary Private Use Area-B
  U+1D360 -  U+1D37F  Counting Rod Numerals
  U+1D400 -  U+1D7FF  Mathematical Alphanumeric Symbols
  U+1D800 -  U+1DAAF  Sutton SignWriting
+ U+1DF00 -  U+1DFFF  Latin Extended-G
  U+1E000 -  U+1E02F  Glagolitic Supplement
  U+1E100 -  U+1E14F  Nyiakeng Puachue Hmong
+ U+1E290 -  U+1E2BF  Toto
  U+1E2C0 -  U+1E2FF  Wancho
+ U+1E7E0 -  U+1E7FF  Ethiopic Extended-B
  U+1E800 -  U+1E8DF  Mende Kikakui
  U+1E900 -  U+1E95F  Adlam
  U+1EC70 -  U+1ECBF  Indic Siyaq Numbers

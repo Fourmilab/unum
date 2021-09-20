@@ -71,7 +71,7 @@ check:	FORCE
 	@cmp -s check_exp.txt check_rcv.tmp ; if test $$? -ne 0  ; then \
 		echo '** unum:  check failed.  Results differ from check_exp.txt. **' ; \
 		diff check_exp.txt check_rcv.tmp ; else \
-		echo 'All tests passed.' ; fi ; fi
+		echo 'All tests passed.' ; fi
 	@rm check_rcv.tmp
 
 html:	FORCE

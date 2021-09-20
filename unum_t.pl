@@ -144,7 +144,7 @@ Unicode blocks are listed as follows:
 
 =head1 VERSION
 
-This is B<unum> version 3.3 (13.0.0), released on May 11th, 2021.
+This is B<unum> version 3.4-14.0.0, released on September 20th, 2021.
 The current version of this program is always posted at
 http://www.fourmilab.ch/webtools/unum/.
 
@@ -215,7 +215,7 @@ usage: unum arg...
         Run perldoc on this program or visit:
             http://www.fourmilab.ch/webtools/unum/
         for additional information.
-    Version 3.3 (13.0.0), May 2021
+    Version 3.4-14.0.0, September 2021
 EOD
     }
 
@@ -652,8 +652,8 @@ EOD
 
 =pod
 
-The Unicode character tables are based upon the Unicode 13.0.0
-(2020) standard.
+The Unicode character tables are based upon the Unicode 14.0.0
+(2021) standard.
 
 The control characters in this B<unum> version have been annotated
 with their Unicode abbreviations, names, and for U+0000 to U+001F,
@@ -694,14 +694,14 @@ these references.
     sub init_names {
         #   Pre-dimension array and hash bucket sizes to reduce overhead
         #   in dynamic allocation as they are built below.
-        $#UNICODE_BLOCKS = 308;
+        $#UNICODE_BLOCKS = 320;
         $#HTML_CHARACTER_REFERENCES = 2032;
         $#HTML_COMPOSED_CHARACTER_REFERENCES = 93;
-        keys %UNICODE_NAMES = 143924;
+        keys %UNICODE_NAMES = 144762;
 
         #   The following code allows us to build two versions of the program
         #   from the same template file.  The table of Unicode code points
-        #   is enormous (7.9 Mb as of Unicode 13.0), and we'd prefer not
+        #   is enormous (7.9 Mb as of Unicode 14.0.0), and we'd prefer not
         #   to carry it around within this program.  We read the table from
         #   a __DATA__ block appended to the program.  Following this can
         #   either be the table itself, appended from a separate file when
@@ -814,6 +814,7 @@ these references.
           [0x0800, 0x083F => 'Samaritan'],
           [0x0840, 0x085F => 'Mandaic'],
           [0x0860, 0x086F => 'Syriac Supplement'],
+          [0x0870, 0x089F => 'Arabic Extended-B'],
           [0x08A0, 0x08FF => 'Arabic Extended-A'],
           [0x0900, 0x097F => 'Devanagari'],
           [0x0980, 0x09FF => 'Bengali'],
@@ -977,7 +978,9 @@ these references.
           [0x104B0, 0x104FF => 'Osage'],
           [0x10500, 0x1052F => 'Elbasan'],
           [0x10530, 0x1056F => 'Caucasian Albanian'],
+          [0x10570, 0x105BF => 'Vithkuqi'],
           [0x10600, 0x1077F => 'Linear A'],
+          [0x10780, 0x107BF => 'Latin Extended-F'],
           [0x10800, 0x1083F => 'Cypriot Syllabary'],
           [0x10840, 0x1085F => 'Imperial Aramaic'],
           [0x10860, 0x1087F => 'Palmyrene'],
@@ -1002,6 +1005,7 @@ these references.
           [0x10E80, 0x10EBF => 'Yezidi'],
           [0x10F00, 0x10F2F => 'Old Sogdian'],
           [0x10F30, 0x10F6F => 'Sogdian'],
+          [0x10F70, 0x10FAF => 'Old Uyghur'],
           [0x10FB0, 0x10FDF => 'Chorasmian'],
           [0x10FE0, 0x10FFF => 'Elymaic'],
           [0x11000, 0x1107F => 'Brahmi'],
@@ -1021,13 +1025,14 @@ these references.
           [0x11600, 0x1165F => 'Modi'],
           [0x11660, 0x1167F => 'Mongolian Supplement'],
           [0x11680, 0x116CF => 'Takri'],
-          [0x11700, 0x1173F => 'Ahom'],
+          [0x11700, 0x1174F => 'Ahom'],
           [0x11800, 0x1184F => 'Dogra'],
           [0x118A0, 0x118FF => 'Warang Citi'],
           [0x11900, 0x1195F => 'Dives Akuru'],
           [0x119A0, 0x119FF => 'Nandinagari'],
           [0x11A00, 0x11A4F => 'Zanabazar Square'],
           [0x11A50, 0x11AAF => 'Soyombo'],
+          [0x11AB0, 0x11ABF => 'Unified Canadian Aboriginal Syllabics Extended-A'],
           [0x11AC0, 0x11AFF => 'Pau Cin Hau'],
           [0x11C00, 0x11C6F => 'Bhaiksuki'],
           [0x11C70, 0x11CBF => 'Marchen'],
@@ -1039,11 +1044,13 @@ these references.
           [0x12000, 0x123FF => 'Cuneiform'],
           [0x12400, 0x1247F => 'Cuneiform Numbers and Punctuation'],
           [0x12480, 0x1254F => 'Early Dynastic Cuneiform'],
+          [0x12F90, 0x12FFF => 'Cypro-Minoan'],
           [0x13000, 0x1342F => 'Egyptian Hieroglyphs'],
           [0x13430, 0x1343F => 'Egyptian Hieroglyph Format Controls'],
           [0x14400, 0x1467F => 'Anatolian Hieroglyphs'],
           [0x16800, 0x16A3F => 'Bamum Supplement'],
           [0x16A40, 0x16A6F => 'Mro'],
+          [0x16A70, 0x16ACF => 'Tangsa'],
           [0x16AD0, 0x16AFF => 'Bassa Vah'],
           [0x16B00, 0x16B8F => 'Pahawh Hmong'],
           [0x16E40, 0x16E9F => 'Medefaidrin'],
@@ -1052,13 +1059,15 @@ these references.
           [0x17000, 0x187FF => 'Tangut'],
           [0x18800, 0x18AFF => 'Tangut Components'],
           [0x18B00, 0x18CFF => 'Khitan Small Script'],
-          [0x18D00, 0x18D8F => 'Tangut Supplement'],
+          [0x18D00, 0x18D7F => 'Tangut Supplement'],
+          [0x1AFF0, 0x1AFFF => 'Kana Extended-B'],
           [0x1B000, 0x1B0FF => 'Kana Supplement'],
           [0x1B100, 0x1B12F => 'Kana Extended-A'],
           [0x1B130, 0x1B16F => 'Small Kana Extension'],
           [0x1B170, 0x1B2FF => 'Nushu'],
           [0x1BC00, 0x1BC9F => 'Duployan'],
           [0x1BCA0, 0x1BCAF => 'Shorthand Format Controls'],
+          [0x1CF00, 0x1CFCF => 'Znamenny Musical Notation'],
           [0x1D000, 0x1D0FF => 'Byzantine Musical Symbols'],
           [0x1D100, 0x1D1FF => 'Musical Symbols'],
           [0x1D200, 0x1D24F => 'Ancient Greek Musical Notation'],
@@ -1067,9 +1076,12 @@ these references.
           [0x1D360, 0x1D37F => 'Counting Rod Numerals'],
           [0x1D400, 0x1D7FF => 'Mathematical Alphanumeric Symbols'],
           [0x1D800, 0x1DAAF => 'Sutton SignWriting'],
+          [0x1DF00, 0x1DFFF => 'Latin Extended-G'],
           [0x1E000, 0x1E02F => 'Glagolitic Supplement'],
           [0x1E100, 0x1E14F => 'Nyiakeng Puachue Hmong'],
+          [0x1E290, 0x1E2BF => 'Toto'],
           [0x1E2C0, 0x1E2FF => 'Wancho'],
+          [0x1E7E0, 0x1E7FF => 'Ethiopic Extended-B'],
           [0x1E800, 0x1E8DF => 'Mende Kikakui'],
           [0x1E900, 0x1E95F => 'Adlam'],
           [0x1EC70, 0x1ECBF => 'Indic Siyaq Numbers'],
