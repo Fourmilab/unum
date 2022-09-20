@@ -283,3 +283,72 @@ Confirmed that my local "git sync" command works with the remote
 repository.
 
 The documents in the repository root now work properly.
+
+2022 September 20
+
+Changed the version number to 3.5-15.0.0.
+
+Began incorporation of the Unicode 15.0.0 standard:
+    https://www.unicode.org/versions/Unicode15.0.0/
+    https://www.unicode.org/Public/15.0.0/ucdxml/ucd.all.flat.zip
+
+Downloaded into a WORK15.0 subdirectory and rebuilt blocks.txt and
+cpnames.txt with "make all".
+
+Replaced the symbolic link to the previous (14.0.0) code page name
+database in the parent directory with one to the new version.
+    rm cpnames.txt
+    ln -s WORK15.0/cpnames.txt cpnames.txt
+
+The HTML5 named character reference table:
+    https://html.spec.whatwg.org/entities.json
+has not changed since the version we incorporate, although as before,
+the order of the table posted on the W3C site is different, but sorts
+into an identical file. Since the order is irrelevant to our
+processing of the table, for our purposes it is unchanged.
+
+Changed the version number in the template program, unum_t.pl,
+to "Version 3.5-15.0.0, September 2022".  The version number
+indicates the Unicode standard which the database represents.
+
+New and modified blocks in Unicode 15.0.0 are:
+    [0x10EC0, 0x10EFF => 'Arabic Extended-C'],
+    [0x11B00, 0x11B5F => 'Devanagari Extended-A'],
+    [0x11F00, 0x11F5F => 'Kawi'],
+    [0x13430, 0x1345F => 'Egyptian Hieroglyph Format Controls'],
+    [0x1D2C0, 0x1D2DF => 'Kaktovik Numerals'],
+    [0x1E030, 0x1E08F => 'Cyrillic Extended-D'],
+    [0x1E4D0, 0x1E4FF => 'Nag Mundari'],
+    [0x31350, 0x323AF => 'CJK Unified Ideographs Extension H'],
+
+Integrated the 15.0.0/blocks.txt table into unum_t.pl, replacing
+the previous definition of @UNICODE_BLOCKS.
+
+Updated the pre-dimensioning of the @UNICODE_BLOCKS and
+%UNICODE_NAMES array and hash to reflect the number of items in
+15.0.0.  This allows Perl to pre-allocate the array index and hash
+buckets for these structures in advance rather than having to
+repeatedly expand them as they are initialised.  You get the
+numbers for these with:
+    fgrep '=>' WORK15.0/blocks.txt | wc -l      # $#UNICODE_BLOCKS
+    wc -l WORK15.0/cpnames.txt                  # keys %UNICODE_NAMES
+
+Rebuilt with:
+    make clean
+    make all
+
+Ran a "make check".  The only discrepancies reported were, as
+expected, the new Unicode blocks in the listing of all blocks.
+After verifying that the discrepancies corresponded to the
+blocks added in 15.0.0, I updated the check expected results:
+    cp -p check_rcv.tmp check_exp.txt
+to include the new blocks and verified that make check now runs
+with no errors.
+
+Rebuilt distribution with:
+    make dist
+
+Version 3.5-15.0.0.
+
+There was an obsolete version of the development log in
+WORK14.0/log.txt.  Deleted it, and kept it from creeping into WORK15.0.

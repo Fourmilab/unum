@@ -273,6 +273,7 @@
  U+10D00 -  U+10D3F  Hanifi Rohingya
  U+10E60 -  U+10E7F  Rumi Numeral Symbols
  U+10E80 -  U+10EBF  Yezidi
+ U+10EC0 -  U+10EFF  Arabic Extended-C
  U+10F00 -  U+10F2F  Old Sogdian
  U+10F30 -  U+10F6F  Sogdian
  U+10F70 -  U+10FAF  Old Uyghur
@@ -304,11 +305,13 @@
  U+11A50 -  U+11AAF  Soyombo
  U+11AB0 -  U+11ABF  Unified Canadian Aboriginal Syllabics Extended-A
  U+11AC0 -  U+11AFF  Pau Cin Hau
+ U+11B00 -  U+11B5F  Devanagari Extended-A
  U+11C00 -  U+11C6F  Bhaiksuki
  U+11C70 -  U+11CBF  Marchen
  U+11D00 -  U+11D5F  Masaram Gondi
  U+11D60 -  U+11DAF  Gunjala Gondi
  U+11EE0 -  U+11EFF  Makasar
+ U+11F00 -  U+11F5F  Kawi
  U+11FB0 -  U+11FBF  Lisu Supplement
  U+11FC0 -  U+11FFF  Tamil Supplement
  U+12000 -  U+123FF  Cuneiform
@@ -316,7 +319,7 @@
  U+12480 -  U+1254F  Early Dynastic Cuneiform
  U+12F90 -  U+12FFF  Cypro-Minoan
  U+13000 -  U+1342F  Egyptian Hieroglyphs
- U+13430 -  U+1343F  Egyptian Hieroglyph Format Controls
+ U+13430 -  U+1345F  Egyptian Hieroglyph Format Controls
  U+14400 -  U+1467F  Anatolian Hieroglyphs
  U+16800 -  U+16A3F  Bamum Supplement
  U+16A40 -  U+16A6F  Mro
@@ -341,6 +344,7 @@
  U+1D000 -  U+1D0FF  Byzantine Musical Symbols
  U+1D100 -  U+1D1FF  Musical Symbols
  U+1D200 -  U+1D24F  Ancient Greek Musical Notation
+ U+1D2C0 -  U+1D2DF  Kaktovik Numerals
  U+1D2E0 -  U+1D2FF  Mayan Numerals
  U+1D300 -  U+1D35F  Tai Xuan Jing Symbols
  U+1D360 -  U+1D37F  Counting Rod Numerals
@@ -348,9 +352,11 @@
  U+1D800 -  U+1DAAF  Sutton SignWriting
  U+1DF00 -  U+1DFFF  Latin Extended-G
  U+1E000 -  U+1E02F  Glagolitic Supplement
+ U+1E030 -  U+1E08F  Cyrillic Extended-D
  U+1E100 -  U+1E14F  Nyiakeng Puachue Hmong
  U+1E290 -  U+1E2BF  Toto
  U+1E2C0 -  U+1E2FF  Wancho
+ U+1E4D0 -  U+1E4FF  Nag Mundari
  U+1E7E0 -  U+1E7FF  Ethiopic Extended-B
  U+1E800 -  U+1E8DF  Mende Kikakui
  U+1E900 -  U+1E95F  Adlam
@@ -380,6 +386,7 @@
  U+2CEB0 -  U+2EBEF  CJK Unified Ideographs Extension F
  U+2F800 -  U+2FA1F  CJK Compatibility Ideographs Supplement
  U+30000 -  U+3134F  CJK Unified Ideographs Extension G
+ U+31350 -  U+323AF  CJK Unified Ideographs Extension H
  U+E0000 -  U+E007F  Tags
  U+E0100 -  U+E01EF  Variation Selectors Supplement
  U+F0000 -  U+FFFFF  Supplementary Private Use Area-A
@@ -830,6 +837,7 @@ U+100000 - U+10FFFF  Supplementary Private Use Area-B
  U+10D00 -  U+10D3F  Hanifi Rohingya
  U+10E60 -  U+10E7F  Rumi Numeral Symbols
  U+10E80 -  U+10EBF  Yezidi
+ U+10EC0 -  U+10EFF  Arabic Extended-C
  U+10F00 -  U+10F2F  Old Sogdian
  U+10F30 -  U+10F6F  Sogdian
  U+10F70 -  U+10FAF  Old Uyghur
@@ -861,11 +869,13 @@ U+100000 - U+10FFFF  Supplementary Private Use Area-B
  U+11A50 -  U+11AAF  Soyombo
  U+11AB0 -  U+11ABF  Unified Canadian Aboriginal Syllabics Extended-A
  U+11AC0 -  U+11AFF  Pau Cin Hau
+ U+11B00 -  U+11B5F  Devanagari Extended-A
  U+11C00 -  U+11C6F  Bhaiksuki
  U+11C70 -  U+11CBF  Marchen
  U+11D00 -  U+11D5F  Masaram Gondi
  U+11D60 -  U+11DAF  Gunjala Gondi
  U+11EE0 -  U+11EFF  Makasar
+ U+11F00 -  U+11F5F  Kawi
  U+11FB0 -  U+11FBF  Lisu Supplement
  U+11FC0 -  U+11FFF  Tamil Supplement
  U+12000 -  U+123FF  Cuneiform
@@ -873,7 +883,7 @@ U+100000 - U+10FFFF  Supplementary Private Use Area-B
  U+12480 -  U+1254F  Early Dynastic Cuneiform
  U+12F90 -  U+12FFF  Cypro-Minoan
  U+13000 -  U+1342F  Egyptian Hieroglyphs
- U+13430 -  U+1343F  Egyptian Hieroglyph Format Controls
+ U+13430 -  U+1345F  Egyptian Hieroglyph Format Controls
  U+14400 -  U+1467F  Anatolian Hieroglyphs
  U+16800 -  U+16A3F  Bamum Supplement
  U+16A40 -  U+16A6F  Mro
@@ -898,6 +908,7 @@ U+100000 - U+10FFFF  Supplementary Private Use Area-B
  U+1D000 -  U+1D0FF  Byzantine Musical Symbols
  U+1D100 -  U+1D1FF  Musical Symbols
  U+1D200 -  U+1D24F  Ancient Greek Musical Notation
+ U+1D2C0 -  U+1D2DF  Kaktovik Numerals
  U+1D2E0 -  U+1D2FF  Mayan Numerals
  U+1D300 -  U+1D35F  Tai Xuan Jing Symbols
  U+1D360 -  U+1D37F  Counting Rod Numerals
@@ -905,9 +916,11 @@ U+100000 - U+10FFFF  Supplementary Private Use Area-B
  U+1D800 -  U+1DAAF  Sutton SignWriting
  U+1DF00 -  U+1DFFF  Latin Extended-G
  U+1E000 -  U+1E02F  Glagolitic Supplement
+ U+1E030 -  U+1E08F  Cyrillic Extended-D
  U+1E100 -  U+1E14F  Nyiakeng Puachue Hmong
  U+1E290 -  U+1E2BF  Toto
  U+1E2C0 -  U+1E2FF  Wancho
+ U+1E4D0 -  U+1E4FF  Nag Mundari
  U+1E7E0 -  U+1E7FF  Ethiopic Extended-B
  U+1E800 -  U+1E8DF  Mende Kikakui
  U+1E900 -  U+1E95F  Adlam
@@ -937,6 +950,7 @@ U+100000 - U+10FFFF  Supplementary Private Use Area-B
  U+2CEB0 -  U+2EBEF  CJK Unified Ideographs Extension F
  U+2F800 -  U+2FA1F  CJK Compatibility Ideographs Supplement
  U+30000 -  U+3134F  CJK Unified Ideographs Extension G
+ U+31350 -  U+323AF  CJK Unified Ideographs Extension H
  U+E0000 -  U+E007F  Tags
  U+E0100 -  U+E01EF  Variation Selectors Supplement
  U+F0000 -  U+FFFFF  Supplementary Private Use Area-A
