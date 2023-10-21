@@ -384,6 +384,7 @@
  U+2B740 -  U+2B81F  CJK Unified Ideographs Extension D
  U+2B820 -  U+2CEAF  CJK Unified Ideographs Extension E
  U+2CEB0 -  U+2EBEF  CJK Unified Ideographs Extension F
+ U+2EBF0 -  U+2EE5F  CJK Unified Ideographs Extension I
  U+2F800 -  U+2FA1F  CJK Compatibility Ideographs Supplement
  U+30000 -  U+3134F  CJK Unified Ideographs Extension G
  U+31350 -  U+323AF  CJK Unified Ideographs Extension H
@@ -547,7 +548,7 @@ U+100000 - U+10FFFF  Supplementary Private Use Area-B
    03112     1610    0x64A     &#1610;    "ي"         ARABIC LETTER YEH
    03051     1577    0x629     &#1577;    "ة"         ARABIC LETTER TEH MARBUTA
    Octal  Decimal      Hex        HTML    Character   Unicode
-  070256    28846   0x70AE    &#28846;    "炮"         CJK UNIFIED IDEOGRAPH-#70AE, IRGKangXi=0668.250, RSKangXi=86.5, Def{large gun, cannon; artillery}
+  070256    28846   0x70AE    &#28846;    "炮"         CJK UNIFIED IDEOGRAPH-#70AE, IRGKangXi=0668.250, Def{large gun, cannon; artillery}
                                 &nbump; =
    Octal  Decimal      Hex        HTML    Character   Unicode
   021116     8782   0x224E &bump;,&Bumpeq;,&HumpDownHump;    "≎"         GEOMETRICALLY EQUIVALENT TO
@@ -948,6 +949,7 @@ U+100000 - U+10FFFF  Supplementary Private Use Area-B
  U+2B740 -  U+2B81F  CJK Unified Ideographs Extension D
  U+2B820 -  U+2CEAF  CJK Unified Ideographs Extension E
  U+2CEB0 -  U+2EBEF  CJK Unified Ideographs Extension F
+ U+2EBF0 -  U+2EE5F  CJK Unified Ideographs Extension I
  U+2F800 -  U+2FA1F  CJK Compatibility Ideographs Supplement
  U+30000 -  U+3134F  CJK Unified Ideographs Extension G
  U+31350 -  U+323AF  CJK Unified Ideographs Extension H
@@ -1111,7 +1113,7 @@ U+100000 - U+10FFFF  Supplementary Private Use Area-B
    03112     1610    0x64A     &#1610;    "ي"         ARABIC LETTER YEH
    03051     1577    0x629     &#1577;    "ة"         ARABIC LETTER TEH MARBUTA
    Octal  Decimal      Hex        HTML    Character   Unicode
-  070256    28846   0x70AE    &#28846;    "炮"         CJK UNIFIED IDEOGRAPH-#70AE, IRGKangXi=0668.250, RSKangXi=86.5, Def{large gun, cannon; artillery}
+  070256    28846   0x70AE    &#28846;    "炮"         CJK UNIFIED IDEOGRAPH-#70AE, IRGKangXi=0668.250, Def{large gun, cannon; artillery}
                                 &nbump; =
    Octal  Decimal      Hex        HTML    Character   Unicode
   021116     8782   0x224E &bump;,&Bumpeq;,&HumpDownHump;    "≎"         GEOMETRICALLY EQUIVALENT TO

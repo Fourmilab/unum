@@ -352,3 +352,64 @@ Version 3.5-15.0.0.
 
 There was an obsolete version of the development log in
 WORK14.0/log.txt.  Deleted it, and kept it from creeping into WORK15.0.
+
+2023 October 20
+
+Changed the version number to 3.6-15.1.0.
+
+Began work on the Unicode 15.1.0 update:
+    https://www.unicode.org/versions/Unicode15.1.0/
+    https://www.unicode.org/Public/15.1.0/ucdxml/ucd.all.flat.zip
+
+Downloaded into a WORK15.1 subdirectory and rebuilt blocks.txt and
+cpnames.txt with "make all".
+
+Replaced the symbolic link to the previous (14.0.0) code page name
+database in the parent directory with one to the new version.
+    rm cpnames.txt
+    ln -s WORK15.1/cpnames.txt cpnames.txt
+
+The HTML5 named character reference table:
+    https://html.spec.whatwg.org/entities.json
+has not changed since the version we incorporate, although as before,
+the order of the table posted on the W3C site is different, but sorts
+into an identical file. Since the order is irrelevant to our
+processing of the table, for our purposes it is unchanged.
+
+Changed the version number in the template program, unum_t.pl,
+to "Version 3.6-15.1.0, October 2023".  The version number
+indicates the Unicode standard which the database represents.
+
+There is only one new block in Unicode 15.1.0:
+    [0x2EBF0, 0x2EE5F => 'CJK Unified Ideographs Extension I']
+Integrated the 15.1.0/blocks.txt table into unum_t.pl, replacing
+the previous definition of @UNICODE_BLOCKS.
+
+Updated the pre-dimensioning of the @UNICODE_BLOCKS and
+%UNICODE_NAMES array and hash to reflect the number of items in
+15.1.0.  This allows Perl to pre-allocate the array index and hash
+buckets for these structures in advance rather than having to
+repeatedly expand them as they are initialised.  You get the
+numbers for these with:
+    fgrep '=>' WORK15.1/blocks.txt | wc -l      # $#UNICODE_BLOCKS
+    wc -l WORK15.1/cpnames.txt                  # keys %UNICODE_NAMES
+
+Rebuilt with:
+    make clean
+    make all
+
+Ran a "make check".  The only discrepancies reported were, as expected, 
+the new Unicode block in the listing of all blocks and changes in the 
+provisional properties used by the Unicode Han database (6 were added 
+and 7 removed). After verifying that the discrepancies corresponded to 
+the block added in 15.1.0 and documented Han changes, I updated the 
+check expected results:
+    cp -p check_rcv.tmp check_exp.txt
+to include the changes and verified that make check now runs with no 
+errors.
+
+Rebuilt distribution with:
+    make dist
+
+Version 3.6-15.1.0.
+

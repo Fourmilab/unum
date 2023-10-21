@@ -1,0 +1,25 @@
+
+Unicode 11.0
+
+    http://blog.unicode.org/2018/06/announcing-unicode-standard-version-110.html
+    
+    
+    https://www.unicode.org/Public/UCD/latest/ucdxml/
+    
+    https://www.unicode.org/Public/UCD/latest/ucdxml/ucd.all.flat.zip
+    
+    
+    HTML5 named character references:
+    	https://www.w3.org/TR/html5/entities.json
+	
+Unicode 12.1.0
+
+    https://www.unicode.org/versions/Unicode12.1.0/
+
+    https://www.unicode.org/Public/12.1.0/ucdxml/ucd.all.flat.zip
+    
+Unicode 13.0
+
+    https://www.unicode.org/versions/Unicode13.0.0/
+
+    https://www.unicode.org/Public/13.0.0/ucdxml/ucd.all.flat.zip
