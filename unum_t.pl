@@ -144,7 +144,7 @@ Unicode blocks are listed as follows:
 
 =head1 VERSION
 
-This is B<unum> version 3.3-15.1.0, released on September 21st, 2023.
+This is B<unum> version 3.6-15.1.0, released on October 21st, 2023.
 The current version of this program is always posted at
 http://www.fourmilab.ch/webtools/unum/.
 
